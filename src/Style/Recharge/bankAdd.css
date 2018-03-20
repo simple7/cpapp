@@ -1,0 +1,350 @@
+#bankAdd {
+  position: absolute;
+  min-height: 100%;
+  width: 100%;
+}
+
+.bankAddBox.m_bt40 {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.bankAddBox.m_b40 {
+  margin-bottom: 40px;
+}
+
+#bankAdd .am-list-item .am-input-label {
+  font-size: 32px;
+  color: #191919;
+}
+
+#bankAdd .am-list-item .am-input-control input {
+  font-size: 32px;
+}
+
+.m_t60 {
+  margin-top: 60px;
+}
+
+#bankAdd .rechargeBtn {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0 30px;
+  text-align: center;
+}
+
+#bankAdd .cardManage{
+  width: 100%;
+  margin-top:50px;
+  font-size: 28px;
+  text-align: center;
+}
+#bankAdd .cardManage a{
+  color: #3596ff;
+}
+#bankAdd .rechargeBtn1 {
+  display: block;
+  height: 88px;
+  line-height: 88px;
+  font-size: 36px;
+  color: #FFFFFF;
+  background: #FC5638;
+  border-radius: 10px;
+  text-align: center;
+}
+
+#bankAdd .rechargeBtn1.disabledBtn {
+  background: #FDAA9B;
+}
+
+.am-list-item.am-input-item.blueInput input {
+  color: #2395FF;
+  letter-spacing: -0.22px;
+}
+
+.am-list-item.am-input-item.blueInput input:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+  color: #2395FF;
+  opacity: 1;
+}
+
+.am-list-item.am-input-item.blueInput input::-moz-placeholder { /* Mozilla Firefox 19+ */
+  color: #2395FF;
+  opacity: 1;
+}
+
+.am-list-item.am-input-item.blueInput input:-ms-input-placeholder {
+  color: #2395FF;
+  opacity: 1;
+}
+
+.am-list-item.am-input-item.blueInput input::-webkit-input-placeholder {
+  color: #2395FF;
+  opacity: 1;
+}
+
+/*.am-list-item.am-input-item.blueInput:after {
+  display: block;
+  position: absolute;
+  content: '';
+  left: 0.52632rem;
+  bottom: 0;
+  right: auto;
+  top: auto;
+  width: 100%;
+  border-bottom: 1PX solid #ddd;
+}*/
+
+#bankAdd .blueIcon {
+  width: 46px;
+  height: 46px;
+  background: url('../../Img/MyIndex/cardBlueIcon.png') no-repeat;
+  background-size: 90%;
+}
+
+#bankAdd .am-list-item.am-input-item {
+  height: 100px;
+  min-height: 100px;
+}
+
+.grayColor.am-list-item .am-input-control input {
+  color: #999999;
+}
+
+.codeInput.am-list-item .am-input-control input {
+  width: 300px;
+}
+
+.codeInput.am-list-item .am-input-extra {
+  width: 150px;
+  text-align: center;
+}
+
+.posRe {
+  position: relative;
+}
+
+.sendBtn {
+  position: absolute;
+  top: 102px;
+  right: 0;
+  display: block;
+  height: 98px;
+  color: #2395FF;
+  font-size: 32px;
+  letter-spacing: 1.28px;
+  background: #fff;
+  width: 220px;
+  padding-right: 25px;
+  border: 0;
+}
+
+.sendBtn.grayColor1 {
+  color: #aaa;
+}
+
+#bankAdd .am-list-body {
+  border-top: 1PX solid #eee;
+}
+
+#bankAdd .am-list-body div:not(:last-child) .am-list-line:after {
+  border-bottom: 1PX solid #eee;
+}
+
+#bankAdd .am-list-body:after {
+  border-bottom: 1PX solid #eee;
+}
+
+#bankAdd .am-list-item.am-input-item:after {
+  border-bottom: 1PX solid #eee;
+}
+
+#bankAdd .codeTips {
+  height: 100px;
+  line-height: 100px;
+  color: #999999;
+  font-size: 26px;
+  padding-left: 26px;
+  box-sizing: border-box;
+}
+
+/*银行卡信息*/
+.bankInfoImg {
+  padding-top: 330px;
+  margin-bottom: 50px;
+  background: url('../../Img/Drawing/bankCard.png') center 85px no-repeat;
+  background-size: 265px 218px;
+  text-align: center;
+  font-size: 28px;
+  color: #999;
+  font-weight: bold;
+}
+
+.bankChangeImg {
+  padding-top: 330px;
+  margin-bottom: 50px;
+  background: url('../../Img/Drawing/changeCard.png') center 85px no-repeat;
+  background-size: 180px auto;
+  text-align: center;
+  font-size: 28px;
+  color: #999;
+  font-weight: bold;
+}
+
+#bankAdd .rechargeBtn.bankInfoBtn, #applyCard .rechargeBtn.bankInfoBtn {
+  position: fixed;
+  bottom: 30px;
+}
+
+.am-list-item.am-input-item.checkInput {
+  position: relative;
+}
+
+.am-list-item.checkInput .am-input-extra {
+  position: absolute;
+  color: #2395FF;
+  right: 30px;
+  top: 60px;
+  font-size: 26px;
+}
+
+.am-list-item.checkInput .am-input-control {
+  position: relative;
+  top: -20px;
+  right: 0;
+}
+
+.bankTips {
+  font-size: 24px;
+  color: #999;
+  margin: 25px 0 40px;
+  padding-left: 30px;
+  box-sizing: border-box;
+}
+
+/*提款*/
+.am-list-item.moneyInputLeft .am-input-control .fake-input-container .fake-input-placeholder {
+  text-align: left;
+}
+.am-list-item.moneyInputLeft .am-input-control .fake-input-container .fake-input-placeholder{ text-align:left;}
+.am-list-item.moneyInputLeft .am-input-control .fake-input-container .fake-input{ text-align:left;}
+.drawingTips{width:100%;line-height: 70px;box-sizing: border-box;padding-left:75px;
+    color: #FABC46;font-size: 28px;margin-bottom:40px;padding-right:24px;
+    background: url('../../Img/Drawing/tipsIcon.png') 60px center no-repeat #FEF9E3;
+    background-size:35px 35px;
+    text-align: center;
+}
+#bankAdd .am-list-item img{width:100px;height:100px;}
+.am-list-item.moneyInputLeft .am-input-control .fake-input-container .fake-input.focus:after{left:0;right:100%;}
+.drawingLink{position:absolute;bottom:0;left:0;width:100%;height:60px;text-align: center;}
+.drawingLink a{color:#2395FF;font-size: 26px;margin:0 20px; vertical-align: top;}
+.drawingLink a:active{text-decoration: underline;}
+
+.footerBtn{position: fixed;bottom:0;left:0;width:100%;height:100px;background: #fff;}
+.footerBtn a{display:block;width:100%;height:100px;line-height: 100px;font-size:34px;
+text-align: center;color:#2395FF;font-weight: bold;}
+.footerBtn a:active{background: #eee;}
+/*提款成功*/
+
+.am-list-item.moneyInputLeft .am-input-control .fake-input-container .fake-input {
+  text-align: left;
+}
+
+.drawingTips {
+  width: 100%;
+  line-height: 70px;
+  box-sizing: border-box;
+  padding-left: 75px;
+  color: #FABC46;
+  font-size: 28px;
+  margin-bottom: 40px;
+  padding-right: 20px;
+  background: url('../../Img/Drawing/tipsIcon.png') 27px center no-repeat #FEF9E3;
+  background-size: 35px 35px;
+}
+
+#bankAdd .am-list-item img {
+  width: 100px;
+  height: 100px;
+}
+
+.am-list-item.moneyInputLeft .am-input-control .fake-input-container .fake-input.focus:after {
+  left: 0;
+  right: 100%;
+}
+
+.drawingLink {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 60px;
+  text-align: center;
+}
+
+.drawingLink a {
+  color: #2395FF;
+  font-size: 26px;
+  margin: 0 20px;
+  vertical-align: top;
+}
+
+.drawingLink a:active {
+  text-decoration: underline;
+}
+
+.footerBtn {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  background: #fff;
+}
+
+.footerBtn a {
+  display: block;
+  width: 100%;
+  height: 100px;
+  line-height: 100px;
+  font-size: 34px;
+  text-align: center;
+  color: #2395FF;
+  font-weight: bold;
+}
+
+.footerBtn a:active {
+  background: #eee;
+}
+
+/*提款成功*/
+
+.am-list-item.moneyBox .am-input-label.am-input-label-5 {
+  width: 120px;
+}
+
+/* 提款 input输入框文字靠右 */
+.drawingIndex input {
+  text-align: right;
+}
+
+#bankAdd .drawingIndex input{
+  text-align: right;
+}
+/*提款底部文字距离*/
+#bankAdd .topContent{
+  margin-bottom:300px;
+}
+#bankAdd .drawingWord{position:absolute;bottom:64px;width:100%;text-align: center;}
+#bankAdd .drawingWord a{color:#2395FF;font-size: 26px;margin:0 20px;}
+#bankAdd .drawingWord a:active{text-decoration: underline;}
+/*修改银行卡信息 文字靠右*/
+#bankAdd .bankEdit div input{
+  text-align: right;
+}
+/***修改datepick样式****/
+.am-picker-popup.cvvPick .am-picker .am-picker-col:last-child{
+  display: none;
+}
+/*.cvvInput .am-input-extra{
+  display: none;
+}*/

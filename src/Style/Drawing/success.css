@@ -1,0 +1,35 @@
+#drawSuccess{position: absolute;top:0;left:0;width:100%;height: 100%;background: #fff;}
+
+#drawSuccess .successBtn{position:fixed;bottom:30px;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0 30px;
+  text-align: center;
+}
+.kefuA,.kefuA:active{font-size:30px;color:#2395FF;}
+.DrawingMoney{height:345px;border-bottom:1px solid #eee;box-sizing: border-box;padding:0 30px;}
+.DrawingMoney p.p1{font-size:32px;color:#999;margin:30px 0 75px;}
+.DrawingMoney p.p2{font-size:100px;color:#000;font-weight: bold;}
+
+.successProgress{position: relative;border-bottom:1px solid #eee;}
+.successProgress:after{content: "";position: absolute;width:2px; height:444px;background: #eee;
+top:0;left:67px;z-index:1; }
+.progressStep{position:relative;z-index:10;height:148px;box-sizing: border-box;padding-left:120px;}
+.progressStep .stepBox{height:147px;border-bottom:1px solid #efefef;}
+.progressStep .stepBox:nth-child(3){border-bottom:0;}
+.progressStep1{background: url('../../Img/Drawing/successIcon1.png') 30px center no-repeat;background-size:74px 74px;}
+.progressStep2{background: url('../../Img/Drawing/successIcon22.png') 30px center no-repeat;background-size:74px 74px;}
+.progressStep3{background: url('../../Img/Drawing/successIcon33.png') 30px center no-repeat;background-size:74px 74px;}
+
+.progressStep2.active{background: url('../../Img/Drawing/successIcon2.png') 30px center no-repeat;background-size:74px 74px;}
+.progressStep3.active{background: url('../../Img/Drawing/successIcon3.png') 30px center no-repeat;background-size:74px 74px;}
+
+.stepBox div{float:left;width:50%;color:#777;}
+.progressStep p.p3{font-size:38px;padding-top:30px;padding-bottom:20px;}
+.progressStep p.p4{color:#aaa;font-size:30px;}
+.progressStep p.p5{color:#aaa;font-size:32px;text-align: right;padding-right: 30px;padding-top:30px;}
+.progressStep p.p6{font-size:38px;height:147px; line-height: 144px;}
+.progressStep p.p7{height:147px; line-height: 147px;font-size:32px;text-align: right;padding-right: 30px;color:#aaa;}
+
+.progressStep p.active{font-weight: bold;}
+

@@ -1,0 +1,311 @@
+/**==============迁移首页html样式至此 2017.8.14 周伟=======================*/
+
+/*css3局部佛珠加载样式 */
+@-webkit-keyframes rotate_load {
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@-moz-keyframes rotate_load {
+  from {
+    -moz-transform: rotate(0deg);
+  }
+  to {
+    -moz-transform: rotate(360deg);
+  }
+}
+
+.rotate_load, #pullUp.loading .pullUpIcon, #pullDown.loading .pullDownIcon {
+  -webkit-animation: rotate_load 2s linear infinite;
+  -moz-animation: rotate_load 2s linear infinite;
+}
+
+.rotate_load, #pullUp.loading .pullUpIcon, #pullDown.loading .pullDownIcon {
+  display: block;
+  width: 32px;
+  height: 32px;
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAEbSURBVFhHxVZbDsIwDNsBgUvxyWl2hT7OBS0fqB15uEkYkypNWuokdp1124xPrfVSSrn31d+NMLZtLeHe1vOwdhva4q6c85VI/i6mf1uEo8MlehvlD66A/m1ENMmk0YsWoOGQrTfwm0YvIoEU03OwMkV1h+J8FbKyMeqcTEUgEiCn3CxBBzcdHqIqF47JPnQRn2mZUjp3WiJSTTFRXXOJRXyXXkCrIj4yWIAcbIiKv+J9SyEqvhpgyTrsUfFdQwMoTpUgcvgIDtAvMH+1IcDkuSFRbIw48CiOGkomHOl3LN5kDgJBJ58SVfXssOlXFxLoxqvRu9LIRARCXVQMa6uo7jQc0ddR+kbZGZZpxSmuyeai15WZsSE85YjkL27WCTEZnfhCAAAAAElFTkSuQmCC) no-repeat
+}
+
+/* --刷新页面初始化加载-- */
+.loadpop {
+  width: 150px;
+  text-align: center;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-left: -75px;
+  z-index: 11;
+}
+
+.loadpop > div {
+  width: 30px;
+  height: 30px;
+  background-color: #67CF22;
+
+  border-radius: 100%;
+  display: inline-block;
+  -webkit-animation: bouncedelay 1.4s infinite ease-in-out;
+  animation: bouncedelay 1.4s infinite ease-in-out;
+  /* Prevent first frame from flickering when animation starts */
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+.loadpop .bounce1 {
+  -webkit-animation-delay: -0.32s;
+  animation-delay: -0.32s;
+}
+
+.loadpop .bounce2 {
+  -webkit-animation-delay: -0.16s;
+  animation-delay: -0.16s;
+}
+
+@-webkit-keyframes bouncedelay {
+  0%, 80%, 100% {
+    -webkit-transform: scale(0.0)
+  }
+  40% {
+    -webkit-transform: scale(1.0)
+  }
+}
+
+@keyframes bouncedelay {
+  0%, 80%, 100% {
+    transform: scale(0.0);
+    -webkit-transform: scale(0.0);
+  }
+  40% {
+    transform: scale(1.0);
+    -webkit-transform: scale(1.0);
+  }
+}
+
+#loadding {
+  height: 100%;
+  width: 100%;
+  background: #FFFFFF;
+  position: fixed;
+}
+
+.clearfix:after {
+  zoom: 1
+}
+
+.clearfix:after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 0;
+  visibility: hidden;
+  clear: both;
+}
+
+a, input, button {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0); /* 取消链接高亮 */
+}
+
+a, a:focus {
+  outline: none;
+  text-decoration: none;
+}
+
+section {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0); /* 取消链接高亮 */
+}
+
+ul, li {
+  list-style: none;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  height: 100%;
+  font-size: 100px !important;
+}
+
+body {
+  font-family: PingFang SC, Helvetica Neue, Hiragino Sans GB, Helvetica, Microsoft YaHei, Arial;
+  background: #fff;
+  font-size: 64px;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%!important;
+  padding-bottom: constant(safe-area-inset-bottom);
+  padding-bottom: env(safe-area-inset-bottom);
+}
+
+@media screen and (max-width: 370px) {
+  html {
+    height: 100%;
+    font-size: 85px !important;
+  }
+
+  body {
+    height: 100%;
+    font-family: PingFang SC, Helvetica Neue, Hiragino Sans GB, Helvetica, Microsoft YaHei, Arial;
+    background: #fff;
+    font-size: 55px;
+  }
+}
+
+/*css3球转圈 首页双色球机选*/
+
+/**=====================迁移 end=========================*/
+
+/**==================新增全局样式=========================*/
+.am-carousel-wrap-dot-active span {
+  background: #ff624f !important;
+}
+
+/* 蓝球 */
+.kjball em.blue {
+  background: #106fe5;
+}
+
+/******** 公用导航头样式 ***********/
+.myNav .am-tabs-bar .am-tabs-tab-active {
+  color: #FC5638;
+}
+
+.myNav .am-tabs-ink-bar {
+  background-color: #FC5638;
+}
+
+.myNav .am-navbar {
+  background-color: #FC5638;
+}
+
+.myNav .am-navbar-title {
+  font-size: 36px;
+}
+
+.myNav .am-navbar-right a {
+  color: #fff;
+}
+
+.myNav .am-navbar-left,
+.myNav .am-navbar-left-icon {
+  position: relative;
+  padding-left: 0;
+  overflow: hidden;
+  margin-right: 10px;
+}
+
+.myNav .am-icon.am-icon-left.am-icon-md,
+.myNav .am-icon.am-icon-cross.am-icon-md {
+  width: 72px;
+  height: 90px;
+}
+
+.myNav.whiteNav .am-navbar-left .am-navbar-left-icon .am-icon.am-icon-left.am-icon-md {
+  color: #FC5638 !important;
+}
+
+.myNav.whiteNav .am-navbar-title {
+  color: #FC5638 !important;
+}
+
+.myNav .home {
+  display: inline-block;
+  background: url(../Img/home.png) no-repeat center;
+  background-size: contain;
+  height: 60px;
+  width: 60px;
+}
+
+/*公用列表滑动样式*/
+.listDivView {
+  display: block;
+  -webkit-overflow-scrolling: touch;
+  overflow-y: auto;
+  width: 100%;
+}
+
+.infinite-scroll-component {
+  overflow: inherit !important;
+  overflow-y: auto !important;
+  width: 100%;
+}
+
+.listDivView::-webkit-scrollbar,
+.infinite-scroll-component::-webkit-scrollbar { /*滚动条整体样式*/
+  width: 8px; /*高宽分别对应横竖滚动条的尺寸*/
+}
+
+.listDivView::-webkit-scrollbar-thumb,
+.infinite-scroll-component::-webkit-scrollbar-thumb { /*滚动条里面小方块*/
+  border-radius: 8px;
+  -webkit-box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+  background: rgba(0, 0, 0, 0.2);
+}
+
+.listDivView::-webkit-scrollbar-track,
+.infinite-scroll-component::-webkit-scrollbar-track { /*滚动条里面轨道*/
+  -webkit-box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+  border-radius: 1px;
+  background: rgba(0, 0, 0, 0.1);
+}
+
+.am-tabs-content .am-tabs-tabpane {
+  overflow: inherit !important;
+}
+
+/*************************** 修改ant-mobile公用样式 ********************************/
+/* 修改modal最小宽度*/
+.am-modal.am-modal-transparent {
+  width: 86% !important;
+}
+
+/* 修改toast样式 勿删*/
+.am-toast.am-toast-nomask {
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%)
+}
+
+.am-toast.am-toast-nomask .am-toast-notice {
+  -webkit-transform: none !important;
+  transform: none !important;
+}
+
+.am-toast-notice-content .am-toast-text {
+  min-width: 150px !important;
+}
+
+/* 修改公用tab栏颜色*/
+.am-tabs.am-tabs-top .am-tabs-bar .am-tabs-tab-active.am-tabs-tab {
+  color: #FC5638
+}
+
+.am-tabs-ink-bar {
+  background-color: #FC5638 !important
+}
+
+.am-tabs.am-tabs-top .am-tabs-bar .am-tabs-ink-bar.am-tabs-ink-bar-animated {
+  background-color: #FC5638
+}
+
+/*机选彈框*/
+.am-popover-arrow{background: #49484B !important;}
+.am-popover-inner-wrapper{background: #49484B !important;}
+.am-popover-inner{background: #49484B !important;}
+.am-popover .am-popover-item:first-child .am-popover-item-container{border-top:0!important;;}
+.am-popover .am-popover-item-container{justify-content:center;text-align: center;
+  border-top:1PX solid #aaa!important;padding:0 5px!important;}
+.am-popover .am-popover-item{padding:0 30px 0 40px!important;}
+
+.blackColor{
+  color:#000 !important;
+}
+
+
+.bettingFooter{padding-bottom: constant(safe-area-inset-bottom);
+  padding-bottom: env(safe-area-inset-bottom);}

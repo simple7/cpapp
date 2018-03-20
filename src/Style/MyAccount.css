@@ -1,0 +1,34 @@
+/**/
+#MyAccount{
+  background:#fff ;
+  height:100%;
+}
+#MyAccount .am-list-body{border-top:none;}
+#MyAccount .am-list-item{min-height:140px;padding-left:0;}
+#MyAccount .am-list-item .am-list-line{min-height:140px;padding-left:30px;padding-right:30px;}
+#MyAccount .am-list-item .am-list-line-multiple{padding:0 30px;}
+#MyAccount .am-list-item .am-list-line .am-list-content{order:2;}
+#MyAccount .am-list-item .am-list-line .am-list-content{color: #191919;font-size:30px;font-weight: bold; text-align: right;}
+#MyAccount .am-list-item .am-list-line .am-list-brief{font-size: 24px;color: #999999;font-weight: bold;margin-top:0;}
+#MyAccount .am-list-item .am-list-line .am-list-extra{font-size:50px;font-weight: bold;}
+/**/
+#MyAccount .am-list-item .am-list-line .am-list-extra{ text-align: left;}
+#MyAccount .colorRed.am-list-item .am-list-line .am-list-extra{color: #F94B53;}
+#MyAccount .colorGreen.am-list-item .am-list-line .am-list-extra{color: #02B171;}
+/**/
+#MyAccount .am-list-body:after,#MyAccount .MyAccount .am-list-body div:not(:last-child) .am-list-line:after{border-bottom:1PX solid #eee;}
+#MyAccount .am-list-body:after,#MyAccount .MyAccount .am-list-body div:last-child .am-list-line:after{border-bottom:1PX solid #eee;}
+#MyAccount .am-list-body:after,#MyAccount .am-list-body div:not(:last-child) .am-list-line:after{border-bottom:1PX solid #eee;}
+#MyAccount .am-list-body .am-list-item:last-child{border-bottom:1PX solid #eee;}
+.end_div{
+  text-align: center;
+  color: #747474;
+  padding: 35px 0;}
+
+.end_div .end_p1{
+  font-size: 28px;
+  line-height: 53px;
+}
+.end_div .end_p2{
+  font-size: 23px;
+}

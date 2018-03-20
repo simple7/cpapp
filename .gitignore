@@ -1,0 +1,9 @@
+node_modules
+.idea
+.DS_Store
+__build__
+product
+prod
+dist
+.project
+package-lock.json

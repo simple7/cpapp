@@ -1,0 +1,92 @@
+.matchingDetails {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.matchingDetails .matchingTable {
+  width: 100%;
+  background: #fff;
+}
+.matchingDetails .matchingTable.marginB {
+  margin-bottom: 30px;
+}
+.matchingDetails .matchingTable .tdTitle {
+  height: 100px;
+  background: #F9F9F9;
+  text-align: center;
+  color: #999999;
+  border-top: 1PX solid #eee;
+  border-bottom: 1PX solid #eee;
+  font-size: 30px;
+  border-right: 1PX solid #eee;
+  box-sizing: border-box;
+  width: 49%;
+}
+.matchingDetails .matchingTable .tdTitle.tdTitle1 {
+  width: 17%;
+}
+.matchingDetails .matchingTable .tdTitle.tdTitle2 {
+  width: 33%;
+}
+.matchingDetails .matchingTable tr .tdWidth {
+  width: 49%;
+}
+.matchingDetails .matchingTable tr .tdWidth.tdWidth1 {
+  width: 17%;
+}
+.matchingDetails .matchingTable tr .tdWidth.tdWidth2 {
+  width: 33%;
+}
+.matchingDetails .matchingTable tr .tdTitle:last-child {
+  border-right: 0;
+}
+.matchingDetails .matchingTable tr .td1:last-child {
+  border-right: 0;
+}
+.matchingDetails .matchingTable tr .tdRed {
+  color: #DD4A4A;
+}
+.matchingDetails .matchingTable tr .tdGreen {
+  color: #03B171;
+}
+.matchingDetails .matchingTable .td1 {
+  height: 142px;
+  color: #191919;
+  font-size: 28px;
+  border-bottom: 1PX solid #eee;
+  border-right: 1PX solid #eee;
+  text-align: center;
+}
+.matchingDetails .matchingTable .td1 p.p1 {
+  padding-bottom: 10px;
+}
+.matchingDetails .matchingTable .td1 p.p2 .span1 {
+  display: inline-block;
+  width: 45%;
+  text-align: right;
+}
+.matchingDetails .matchingTable .td1 p.p2 .span2 {
+  display: inline-block;
+  width: 10%;
+  text-align: center;
+}
+.matchingDetails .matchingTable .td1 p.p2 .span3 {
+  display: inline-block;
+  width: 45%;
+  text-align: left;
+}
+.matchingDetails .matchingTable .td1 p.p3 {
+  padding: 7px 0;
+}
+.matchingDetails .matchingTable .td1 p.p3 .span4 {
+  display: inline-block;
+  width: 40%;
+  padding-left: 5%;
+  text-align: left;
+  color: #191919;
+}
+.matchingDetails .matchingTable .td1 p.p3 .span5 {
+  display: inline-block;
+  width: 55%;
+  text-align: left;
+  color: #7e7e7e;
+}

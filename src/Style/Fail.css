@@ -1,0 +1,16 @@
+/**/
+#Fail{position:absolute;top:0;left:0;width:100%;height: 100%;background: #F5F4F9;z-index: 10;}
+#Fail .SuccessBox.am-result{padding-top:60px;padding-bottom:80px;}
+
+#Fail .SuccessBox.am-result:after{border-bottom:3px solid #eee;}
+#Fail .SuccessBox.am-result .am-result-pic{width:200px;height:200px;line-height:200px;}
+#Fail .SuccessBox.am-result .am-result-pic img{display: block;width:150px;height: 150px;margin:0 auto;}
+#Success .SuccessBox.am-result .am-result-title{color: #444444;font-size:36px;margin-top:0;font-weight: bold;}
+#Success .SuccessBox.am-result .am-result-message{color: #999999;font-size:28px;margin-top:15px;letter-spacing: 1.12px;
+font-weight: bold;}
+
+#Fail .successBtn{width:100%;box-sizing: border-box;padding:90px 30px 0;}
+#Fail .successBtn .am-button{width:100%;height:88px;line-height:88px;border:none;font-size:36px;border-radius:10px}
+#Fail .successBtn .am-button.btn1{color: #FFFFFF;background: #FC5638;margin-bottom: 30px;}
+
+#Fail .am-button.btn1.am-button-active{background: #f9390d;}

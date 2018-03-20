@@ -1,0 +1,37 @@
+#applyCard{}
+.changeCard{width:100%;height:350px;border: 2px dashed #FC5638;border-radius: 10px;
+    background: #FFFFFF;margin-bottom:50px;line-height: 200px;font-size: 32px;color: #C3C3C3;
+    letter-spacing: 1.28px;text-align: center;}
+.changeCard.changeId1{background: url('../../Img/Drawing/cardIdImg1.png') center center no-repeat #ffffff;
+background-size:320px auto;}
+.changeCard.changeId2{background: url('../../Img/Drawing/cardIdImg2.png') center center no-repeat #ffffff;
+background-size:320px auto;}
+.changeCard.changeId3{background: url('../../Img/Drawing/cardIdImg3.png') center center no-repeat #ffffff;
+background-size:320px auto;}
+
+.changeTips{height:70px;line-height:75px;color:#999;font-size: 28px;}
+/*申请提交成功*/
+.applySuccess{width:100%;padding-top:200px;}
+.applySuccess img{display:block;width:250px;height: 250px;margin:0 auto;}
+.applySuccess p.p1{font-size: 40px;color:#191919;text-align: center;margin:50px 80px;}
+.applySuccess p.p2{font-size: 32px;color:#191919;text-align: center;line-height:45px;}
+
+
+.applyTips{position: fixed;bottom:55px;left:0;width:100%;}
+.applyTips p{text-align:center;font-size:30px;color:#999; line-height:40px;}
+
+
+.tipsPop{float:right;padding-right:30px;width:35px;height:100px;
+    background:url('../../Img/Drawing/tipsPop.png') 0 center no-repeat;background-size: 35px 35px;
+    display: block;}
+.am-list-item.am-input-item.blueInput.blueInputRight input{text-align: right;}
+/*银行卡信息*/
+
+
+
+
+
+
+
+
+

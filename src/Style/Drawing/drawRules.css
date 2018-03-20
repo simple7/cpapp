@@ -1,0 +1,58 @@
+#drawRules {
+  background: #FFF;
+  padding-bottom:35px;
+}
+#drawRules @media screen and (min-width: 480px) {
+  html, body, button, input, select, textarea {
+    font-size: 18px
+  }
+}
+
+#drawRules @media screen and (min-width: 640px) {
+  html, body, button, input, select, textarea {
+    font-size: 24px
+  }
+}
+
+#drawRules .paytime_table {
+  width: 95%;
+  margin:35px auto 0;
+  font-size: 25.6px;
+  border-top: 1PX solid #ddd;
+  border-left: 1PX solid #ddd;
+  color: #666
+}
+
+#drawRules .paytime_table th {
+  line-height: 32px;
+  padding: 12.8px 0;
+  font-weight: normal;
+  border-right: 1PX solid #ddd;
+  border-bottom: 1PX solid #ddd;
+  text-align: center
+}
+
+#drawRules .paytime_table th.t {
+  font-weight: bold;
+  line-height: 1.3rem
+}
+
+#drawRules .paytime_table td {
+  line-height: 32px;
+  padding: 16px 3%;
+  text-align: left;
+  border-right: 1PX solid #ddd;
+  border-bottom: 1PX solid #ddd
+}
+
+#drawRules .paytime_table th strong {
+  display: inline-block;
+  font-weight: normal;
+  font-size: 12px;
+  width: 14px;
+  line-height: 14px;
+  color: #fff;
+  padding-left: 4px;
+  margin-right: 2px;
+  overflow: hidden
+}

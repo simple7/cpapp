@@ -1,0 +1,76 @@
+//隐藏重复的第一列
+.rc-table-scroll {
+  .rc-table-header, .rc-table-body {
+    padding-left: 120px;
+    .firstCloumn {
+      display: none;
+    }
+  }
+}
+
+.rc-table-fixed-left {
+  .rc-table-header .rc-table-thead tr{
+    height: 60px !important;
+  }
+  .firstCloumn {
+    font-size: 30px!important;
+    color:#333;
+    text-align: center;
+    height: 60px;
+    padding: 0 auto;
+  }
+}
+
+.rc-table{font-size:30px!important;color: #999999!important;}
+.rc-table tr.rc-table-row-hover,.rc-table tr:hover{
+  background: none !important;
+}
+
+.rc-table th {
+  background: #fff!important;
+  font-weight: normal!important;
+  color: #333333;
+  height: 60px;
+}
+.rc-table th, .rc-table td {
+  padding:0!important;
+  text-align: center!important;
+  white-space:normal!important;
+  width:62px;
+}
+
+.rc-table table{border-collapse: collapse;border-spacing:0;}
+.rc-table .rc-table-header{background: #fff!important;}
+.rc-table table{border-collapse: collapse!important;}
+
+.rc-table-fixed-left table{
+  width: 120px!important;
+}
+.rc-table-fixed-left table td{padding:0;width:120px;}
+
+.rc-table td,.rc-table th {
+  border-bottom:1PX solid #fff!important;
+  border-left:1PX solid #eee;
+}
+.rc-table-fixed-left .rc-table-body-outer .rc-table-fixed tr:nth-child(2n+1) {
+  background: #FEF6F4;
+}
+.rc-table-scroll .rc-table-body .rc-table-fixed tr:nth-child(2n+1) {
+  background: #FEF6F4;
+}
+.redChild span{display: block;height: 60px;line-height: 60px;}
+.blueChild span{display: block;height: 60px;line-height: 60px;}
+.redChild .redBall{background: #FC5634;
+  color: #FFFFFF;}
+.blueChild .blueBall{background: #4B9AF9;
+  color: #FFFFFF;}
+
+.cxcs{display: block;height: 60px;line-height:60px;background: #fff;color: #8539A1;border-top: 2px solid #e8e8e8;}
+.pjyl{display: block;height: 60px;line-height:60px;color: #3F6E0E;background: #FBFDF1;}
+.zdyl{display: block;height: 60px;line-height:60px;color: #8C4712; background: #ffffff;}
+.zdlc{display: block;height: 60px;line-height:60px;color: #0B7094;background: #F5FBFD;}
+
+.rc-table-fixed-left .rc-table-body-outer .rc-table-fixed .cxcs{font-size:26px; }
+.rc-table-fixed-left .rc-table-body-outer .rc-table-fixed .pjyl{font-size:26px; }
+.rc-table-fixed-left .rc-table-body-outer .rc-table-fixed .zdyl{font-size:26px; }
+.rc-table-fixed-left .rc-table-body-outer .rc-table-fixed .zdlc{font-size:26px; }

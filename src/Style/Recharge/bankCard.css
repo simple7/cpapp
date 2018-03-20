@@ -1,0 +1,40 @@
+#bankCard{}
+.bankBox{width:100%;box-sizing: border-box;padding:30px;}
+.bankBox .tips1{color: #999999;font-size: 28px;padding:38px 0 15px;}
+.bankBox .bankCardEmpty{width:100%;height:200px;border: 2px dashed #FC5638;border-radius: 10px;
+    background: #FFFFFF;margin-bottom:30px;line-height: 200px;font-size: 32px;color: #C3C3C3;
+    letter-spacing: 1.28px;text-align: center;}
+.bankBox .bankCardEmpty:active{background: #f9f9f9;}
+.bankBox .bankCardEmpty span{display:inline-block;width:40px;height: 40px;
+background: url('../../Img/MyIndex/addBankIcon.png') 0 0 no-repeat;
+background-size: 40px 40px; vertical-align: middle;margin-right:20px;}
+.bankBox .bankCard{position:relative;margin-bottom:30px;width:100%;height:200px;border-radius: 10px;
+box-sizing: border-box;padding:26px 0 0 50px;}
+.bankBox .bankCardRed{background-image: linear-gradient(-90deg, #E85B67 0%, #F2634D 99%);}
+.bankBox .bankCardBlue{background-image: linear-gradient(-90deg, #4D71BB 0%, #3C57A9 100%);}
+.bankBox .bankCardFl{float:left;margin-right:30px;}
+.bankBox .bankCardFl img{width:60px;height: 60px;background: #fff;border-radius: 60px;}
+.bankBox .bankCardFr{float:left;width: 450px}
+.bankBox .bankCardFr p.p1{font-size: 32px;color: #FFFFFF;letter-spacing: 1.28px;font-weight: bold;}
+.bankBox .bankCardFr p.p2{color: #FFFFFF;font-size: 28px;letter-spacing: 1.12px;margin:20px auto;}
+.bankBox .bankCardFr p.p3{}
+.bankBox .bankCardFr p.p3 span{color:rgba(255,255,255,0.6);font-size: 32px;font-weight: bold;
+    margin-right:50px;vertical-align: top;}
+.bankBox .bankCardFr p.p3 span.span1{font-size: 40px;color: #FFFFFF;letter-spacing: 1.6px;}
+/**/
+.bankCard .am-icon{position: absolute;top:0;right:20px;height:70px;width:60px;color: #ffffff;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

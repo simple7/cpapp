@@ -1,0 +1,603 @@
+.programContent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+  background: #f5f4f9;
+  .noChooseBet {
+    padding: 30px 0;
+    text-align: center;
+    font-size: 28px;
+    color: #999;
+  }
+  .programContentBox {
+    width: 720px;
+    padding-top: 30px;
+    margin: 30px auto;
+    background: url('../../Img/lotteryBetting/programContentBg1.png') 0 0 no-repeat;
+    background-size: 720px 45px;
+    .programList {
+      position: relative;
+      top:-10px;
+      width: 677px;
+      height:auto;
+      margin: 0 auto;
+
+      .popList {
+        height: 500px;
+      }
+      .programBox {
+        padding: 35px 0;
+        position: relative;
+        height: 115px;
+        background: #fff;
+        &:first-child{background: url('../../Img/lotteryBetting/programContentBg2.png') 0 0 no-repeat #fff;
+          background-size: 100% 10px;}
+        &:before {
+          content: "";
+          position: absolute;
+          display: block;
+          width: 609px;
+          height: 1PX;
+          border-bottom: 1PX dashed #c7c7c7;
+          bottom: 0;
+          left: 34px;
+        }
+        .programBox_fl {
+          float: left;
+          width: 72px;
+          img {
+            display: block;
+            width: 36px;
+            height: 36px;
+            padding: 39px 0;
+            margin: 0 auto;
+          }
+        }
+        .programBox_fr {
+          float: left;
+          &.sfc_fr{
+            float: inherit;
+          }
+          table {
+            width: 534px;
+            border: 1PX solid #e0e0e0;
+            box-sizing: border-box;
+            height: 115px;
+            tr:last-child {
+              td {
+                border-bottom: 0;
+              }
+            }
+            td{height: 113px;
+              text-align: center;
+              box-sizing: border-box;
+              &.border_lr {
+                border-left: 1PX solid #efefef;
+                border-right: 1PX solid #efefef;
+              }
+              &.border_lr2 {
+                border-right: 1PX solid #efefef;
+              }
+              &.redBg {
+                background: #FC5638;
+                .mainSpan{border:1px solid #fff;box-sizing: border-box;}
+                p.p1 {
+                  color: #fff;
+                }
+                p.p2 {
+                  color: #fff;
+                }
+              }
+              p.p1 {
+                color: #212121;
+                font-size: 30px;
+                padding-bottom: 5px;
+              }
+              p.p2 {
+                font-size: 24px;
+                color: #737373;
+              }
+
+            }
+            .td2 { width: 10%;}
+            .td1 { width: 20%;}
+            .td3{width:5%;font-size: 11PX;
+              &.tdGreen {
+                background: #03B171;
+                color: #FFFFFF;
+              }
+              &.tdRed {
+                background: #DD4A4A;
+                color: #FFFFFF;
+              }
+              &.tdGray {
+                background: #F5F4F9;
+                color: #666;
+              }
+            }
+            .td4{width:37.5%;}
+
+          }
+        }
+      }
+      .protocolDiv {
+        width: 100%;
+        height: 70px;
+        line-height: 70px;
+        margin: 0 auto;
+        color: #999999;
+        font-size: 22px;
+        background: url('../../Img/lotteryBetting/tail.png') center center no-repeat;
+        background-size:100% 70px;
+        .protocolDiv_fl {
+          float: left;
+          padding-left: 100px;
+          i{display: inline-block;
+            width: 24px;
+            height: 24px;
+            vertical-align:middle;
+            margin-right: 10px;
+            background: url('../../Img/lotteryBetting/agreeIcon_1.png') 0 center no-repeat;
+            background-size: cover;
+            &.active{
+              background: url('../../Img/lotteryBetting/agreeIcon.png') 0 center no-repeat;
+              background-size: cover;
+            }
+          }
+          a {
+            color: #3596ff;
+          }
+        }
+        .protocolDiv_fr {
+          float: right;
+          padding-left: 35px;
+          padding-right:30px;
+          background: url('../../Img/lotteryBetting/clearIcon1.png') 0 center no-repeat;
+          background-size: 28px 28px;
+        }
+      }
+    }
+  }
+}
+
+.programFooter {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  background: #fff;
+  box-shadow: 0 2px 7px 0 rgba(152, 143, 143, 0.50);
+  .bettingFooterInfo {
+    position: relative;
+    width: 100%;
+    height: 116px;
+    border-top: 1PX solid #eee;
+    .footerInfo {
+      position: relative;
+      top: 20px;
+      left: 30px;
+      height: 90px;
+      overflow: hidden;
+      p.p1 {
+        color: #000000;
+        font-size: 32px;
+        padding-bottom: 10px;
+        span {
+          color: #FC5638;
+        }
+      }
+      p.p2 {
+        color: #999999;
+        font-size: 24px;
+      }
+    }
+    .nextBtn {
+      position: absolute;
+      top: 23px;
+      right: 30px;
+      display: block;
+      width: 176px;
+      height: 70px;
+      background: #FB6247;
+      border-radius: 4px;
+      color: #FFFFFF;
+      font-size: 30px;
+      text-align: center;
+      line-height: 70px;
+    }
+  }
+
+}
+
+/**/
+.programFooter1 {
+  height: 53px;
+  padding: 20px 30px;
+  .selectedTxt {
+    float: left;
+    width: 209px;
+    height: 51px;
+    border: 1PX solid #C7C7C7;
+    border-radius: 4px;
+    line-height: 51px;
+    background: url('../../Img/lotteryBetting/arrowIcon1.png') 180px center no-repeat;
+    background-size: 20px 20px;
+    margin-right: 77px;
+    p {
+      width: 155px;
+      color: #191919;
+      font-size: 26px;
+      margin: 0 auto;
+      text-align: center;
+    }
+  }
+  .selectedTxt + .inputBox {
+    float: right;
+    color: #191919;
+    font-size: 26px;
+    line-height: 51px;
+    &.fr{float: right;}
+    input {
+      width: 142px;
+      height: 51px;
+      border: 1PX solid #C7C7C7;
+      border-radius: 4px;
+      margin: 0 14px;
+      text-align: center;
+      color: #191919;
+      background: transparent;
+      -webkit-appearance: none;
+    }
+  }
+  .inputBox {
+    float: left;
+    color: #191919;
+    font-size: 26px;
+    line-height: 51px;
+    &.fr{float: right;}
+    input {
+      width: 142px;
+      height: 51px;
+      border: 1PX solid #C7C7C7;
+      border-radius: 4px;
+      margin: 0 14px;
+      text-align: center;
+      color: #191919;
+      background: transparent;
+      -webkit-appearance: none;
+    }
+    &.inputCen{
+      float: none;
+    }
+  }
+}
+
+/*方案弹框*/
+.mask {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 10;
+}
+
+.programPop {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 480px;
+  z-index: 11;
+  background: #fff;
+}
+
+.programPopTab {
+  height: 369px;
+  border-bottom: 1PX solid #e8e8ea;
+  .programPopTabUl {
+    height: 75px;
+    li {
+      float: left;
+      width: 100%;
+      height: 75px;
+      background: #f4f4f4;
+      font-size: 30px;
+      color: #666666;
+      line-height: 74px;
+      text-align: center;
+      box-sizing: border-box;
+    }
+    li.li1 {
+      border-bottom: 1PX solid #e8e8ea;
+      border-right: 1PX solid #e8e8ea;
+    }
+    li.li2 {
+      border-bottom: 1PX solid #e8e8ea;
+      border-left: 1PX solid #e8e8ea;
+    }
+    li.li1.active {
+      color: #FB6247;
+      background: #fff;
+      border-bottom: 1PX solid #fff;
+      border-right: 1PX solid #fff;
+    }
+    li.li2.active {
+      color: #FB6247;
+      background: #fff;
+      border-bottom: 1PX solid #fff;
+      border-left: 1PX solid #fff;
+    }
+  }
+  .programPopTabContent {
+    ul {
+      text-align: center;
+      padding: 8px 0 10px 15px;
+      height: 275px;
+      overflow: auto;
+      li {
+        float: left;
+        width: 150px;
+        height: 54px;
+        border: 1PX solid #e8e8e8;
+        color: #191919;
+        font-size: 30px;
+        margin: 18px 14px;
+        text-align: center;
+        line-height: 54px;
+        &.active {
+          background: #FB6247;
+          border: 1PX solid #FB6247;
+          color: #fff;
+        }
+      }
+    }
+
+  }
+}
+
+.programPopBtn {
+  width: 660px;
+  height: 66px;
+  margin: 0 auto;
+  padding: 22px 0;
+  a.programPopBtn1 {
+    display: block;
+    float: left;
+    width: 288px;
+    height: 64px;
+    border-radius: 4px;
+    text-align: center;
+    line-height: 64px;
+    border: 1PX solid #e8e8ea;
+    color: #666;
+  }
+  a.programPopBtn2 {
+    display: block;
+    float: right;
+    width: 290px;
+    height: 66px;
+    border-radius: 4px;
+    text-align: center;
+    line-height: 66px;
+    background: #FB6247;
+    font-size: 30px;
+    color: #fff;
+  }
+}
+
+/*混合过关 方案*/
+.mixedProgram {
+  padding: 0 0 20px;
+  position: relative;
+  height:auto;
+  background: #fff;
+  &:first-child{background: url('../../Img/lotteryBetting/programContentBg2.png') 0 0 no-repeat #fff;
+    background-size: 100% 10px;}
+  &:before {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 609px;
+    height: 1PX;
+    border-bottom: 1PX dashed #c7c7c7;
+    bottom: 0;
+    left: 34px;
+  }
+  .mixedProgramTitle{height:76px;line-height:76px;font-size: 28px;color: #191919;margin-left:72px;
+    ul{width: 534px;overflow: hidden;
+      li.li1{float:left;width:22%;}
+      li.li2{float:left;width:31%;text-align: right;}
+      li.li3{float:left;width:16%;text-align: center;}
+      li.li4{float:left;width:31%;text-align: left;}
+    }
+  }
+  .mixedFlex{
+    display: flex;
+  }
+  .programBox_fl {
+    width: 72px;
+    display: flex;
+    align-items: center;
+    img {
+      display: block;
+      width: 36px;
+      height: 36px;
+      padding:0;
+      margin: 0 auto;
+    }
+  }
+  .programBox_fr {
+    width: 514px;background: #F7F7F7;padding:15px 0;
+    p{line-height: 50px;width:500px;word-wrap: break-word;word-break: break-all;
+      .span1{display: inline-block;width:160px;height: 50px;color: #999999;font-size: 26px;
+        text-align: right;vertical-align: top;}
+      .span2{display: inline-block;width:300px;color: #FC5638;font-size: 26px;padding-left:20px;
+        white-space:normal;
+      }
+      .span3{display: inline-block;width:460px;text-align: center;color: #FC5638;word-break:break-all;font-size: 26px;}
+    }
+  }
+  .programBox_fr_shangXia {
+    width: 554px;background: #fff;padding:0;
+  }
+  .programBox_fr_ssq{
+    width: 514px;padding:20px 0 0 30px;
+    background: url('../../Img/lotteryBetting/arrowIcon4.png') right center no-repeat;
+    background-size:25px auto;
+    p.p1{width:465px;font-size: 34px;line-height:40px;padding-bottom:10px;word-wrap:break-word;word-break: break-all;
+      .spanRed{color: #F22F12;padding-right:23px;}
+      .spanBlue{color: #4C93EB;padding-right:23px;}
+      .spanRed_ssq{display:inline-block;width:58px;color: #F22F12;}
+      .spanRed_x11x5{color: #F22F12;padding-right:10px;}
+      .spanBlue_ssq{display:inline-block;width:58px;color: #4C93EB;}
+      .spanRed_ssc{color: #F22F12;padding-right:10px;}
+    }
+    p.p2{width:450px;word-break: break-all;
+      span{color: #666666;font-size: 26px;}
+    }
+  }
+
+  .oneWinnerProgram{
+    position: relative;
+    .programBox_fl {
+      width: 72px;
+      display: block;
+      float:left;
+      img {
+        display: block;
+        width: 36px;
+        height: 36px;
+        padding: 39px 0;
+        margin: 0 auto;
+      }
+    }
+    .programBox_fr {display:block;float:left;
+      width:560px;background: #fff;
+      .programBox_fr_1{float:left;width:350px;
+        p.p1{font-size: 30px;color: #191919;}
+        p.p2{color: #999999;font-size: 24px;
+          span{color: #FC5638;}
+        }
+      }
+      .programBox_fr_2{position:absolute;top:20px;right:10px;
+        .am-stepper{margin-top:5px;border-radius:6px;height: 58px;line-height: 58px;
+          border: 1PX solid #ccc;box-sizing: border-box;padding:0;}
+        .am-stepper-handler-wrap{}
+        .am-stepper.showNumber .am-stepper-handler-down{border-radius:6px;border-top-right-radius:0;border-bottom-right-radius:0;
+          border-right:1PX solid #ccc;}
+        .am-stepper.showNumber .am-stepper-handler-up{border-radius:6px;border-top-left-radius:0;border-bottom-left-radius:0;
+          border-left:1PX solid #ccc;}
+        .am-stepper-handler{border-radius:0;border:0;width:56px; height:56px; line-height:50px;background: #f8f8f8;}
+        .am-icon-xxs{width:20px;height:20px;color:#fb2701;vertical-align: middle;}
+        .am-stepper-input{width:100px;font-size:32px;color: #191919; vertical-align: top;height: 56px;line-height: 56px;}
+      }
+    }
+  }
+}
+/*一场制胜*/
+.ViewMatchingBox{margin:28px auto;text-align: center;
+  a{color: #2395FF;font-size: 24px;padding-right:20px;
+    background: url('../../Img/lotteryBetting/arrowBlue.png') right center no-repeat;
+    background-size:10px auto;
+  }
+}
+.am-stepper.showNumber{
+  width:220px !important;
+}
+.oneWinnerFooter .am-stepper.showNumber{
+  width:260px !important;
+}
+.oneWinnerFooter{text-align: center;color: #191919;font-size: 26px;height:77px;
+  padding:15px 0;
+  .am-stepper{margin:0 15px;border-radius:4px;
+    border: 1PX solid #ccc;box-sizing: border-box;padding:0;}
+  .am-stepper-handler-wrap{}
+  .am-stepper.showNumber .am-stepper-handler-down{border-radius:4px;border-top-right-radius:0;border-right:1PX solid #ccc;
+    border-bottom-right-radius:0;}
+  .am-stepper.showNumber .am-stepper-handler-up{border-radius:4px;border-top-left-radius:0;border-bottom-left-radius:0;
+    border-left:1PX solid #ccc;}
+  .am-stepper-handler{border-radius:0;border:0;width:70px; height:70px; line-height:65px;background: #f8f8f8;}
+  .am-icon-xxs{width:25px;height:30px;color:#fb2701;}
+  .am-stepper-input{width:100px;font-size:32px;color: #191919; vertical-align: top;height:56px;line-height:56px;}
+}
+.mixedProgram .oneBorder:not(:last-child){
+  position: relative;
+  padding-bottom:3px;
+  &:before{
+    content: "";
+    position: absolute;
+    display: block;
+    width: 609px;
+    height: 1PX;
+    border-bottom: 1PX dashed #c7c7c7;
+    bottom: 0;
+    left: 34px;
+  }
+}
+
+/************北京单场*/
+/*比分*/
+
+
+/*双色球*/
+.ssqBetBtn{display: flex;width:100%;height:70px;margin-top:30px;
+  justify-content:space-between;
+  padding:0 40px;box-sizing: border-box;
+  label{display:inline-block;width:207px;height: 68px;background: #FFFFFF;
+    border: 1PX solid #ddd;border-radius: 4px;text-align: center;
+    color: #737373;font-size: 30px;
+    span{display:inline-block;height: 68px;line-height: 70px;vertical-align: top;
+      &:first-child{font-size: 50px;padding-right:5px;line-height:60px}
+    }
+  }
+}
+.ssqChaseNumber{height: 76px;line-height:76px;background: #F9F9F9;font-size: 24px;color: #999999;
+  .radioSpan{display:inline-block;width:25px;height:25px;border: 1PX solid #ddd;background: #FFFFFF;border-radius:25px;
+    margin:0 20px 0 30px;vertical-align: middle;
+    &.active{
+      background: url('../../Img/lotteryBetting/agreeIcon.png') 0 center no-repeat;
+      background-size:26px 26px;border:0;
+    }
+  }
+}
+.ssqBetMultiple{height: 46px;background: #F9F9F9;padding:15px 0;
+  li{float: left;width:33.33%;text-align: center;color: #999999;font-size: 32px;
+    &.border_lr{box-sizing: border-box;border-left:1PX solid #ddd;border-right:1PX solid #ddd;}
+    &.active{color: #FB6247;}
+  }
+}
+.programFooter1_ssq {
+  height: 80px;
+  line-height: 80px;
+  padding: 0 30px;
+  font-size: 26px;
+  color:#737373;
+  border-bottom:1PX solid #eee;
+  .programFooter1_ssq_1{
+    float:left;
+    i{display: inline-block;
+      width: 22px;
+      height: 22px;
+      vertical-align: middle;
+      margin-right: 10px;
+      background: url('../../Img/lotteryBetting/agreeIcon_1.png') 0 center no-repeat;
+      background-size: cover;
+      &.active{
+        background: url('../../Img/lotteryBetting/agreeIcon.png') 0 center no-repeat;
+        background-size: cover;
+      }
+    }
+  }
+  .programFooter1_ssq_2{
+    float:right;
+  }
+}
+
+
+

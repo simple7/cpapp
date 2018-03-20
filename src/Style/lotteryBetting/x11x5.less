@@ -1,0 +1,118 @@
+.x11x5Betting{
+  background: #f4f5f9;
+  height: 100%;
+  .colorRed{color: #f22f12;}
+  .beforePeriods{width:100%;background: #fff;
+    .ul_1{height: 52px;line-height: 48px;
+      &:nth-child(even){background: #FEF6F4;}
+      .li_1{float: left;width:115px;color: #787878;font-size: 24px;padding-left:36px;
+        background: url('../../Img/lotteryBetting/coilIcon.png') right 0 no-repeat;
+        background-size: 14px 50px;}
+      .li_2{float: left;padding-left:30px;
+        span{display:inline-block;
+          width:55px;
+          text-align: center;
+          font-size: 26px;color: #f22f12;
+          &.colorBlue{color:#3596ff;}
+          &.color78{display:block;width:100%;color: #787878;}
+          &.color999{width:150px;
+            text-align: left;color: #999999;padding-left:40px;
+            i{color: #f22f12;font-style: normal;}
+          }
+        }
+      }
+    }
+  }
+  .currentPeriods{width:100%;height:26px;
+    background: url('../../Img/lotteryBetting/xk3_title.png') center 0 no-repeat;
+    background-size: 120px 20px;
+    .arrowP{height:26px;width:100px;margin:0 auto;
+      background: url('../../Img/lotteryBetting/ssqDown.png') center 3px no-repeat;
+      background-size: 32px 10px;
+      &.up{background: url('../../Img/lotteryBetting/ssqUp.png') center 3px no-repeat;
+        background-size: 32px 10px;}
+    }
+  }
+  /*红球*/
+  .redBallTitle{width: 100%;
+    height: 112px;
+    padding-top: 10px;
+    background: #f4f5f9;
+    position: relative;
+    padding-bottom:40px;
+    p.p1{height:40px;
+      line-height:40px;
+      color: #737373;
+      font-size: 28px;
+      margin-left: 30px;
+      position: relative;
+      span{color:#F22F12;}
+    }
+    p.p2{position:relative;width:240px;height: 50px;line-height: 50px;margin-bottom:22px;background: #fff;text-align: center;
+      &:after{position: absolute;top:0;right:0;content: "";width:0;height:0;border-width:25px;
+        border-style:solid;border-color:transparent #f5f5f9 transparent transparent;
+      }
+      span{color: #999999;font-size: 26px;
+        background: url('../../Img/lotteryBetting/yao.png') 0 center no-repeat;
+        background-size: 36px 36px;
+        padding-left:45px;}
+    }
+    .redBallTitle_position {
+      position: absolute;
+      right:0px;
+      top: 35px;
+      width:121px;height:64px;background: #FC5638;border-radius:75px 0 0 75px;
+      text-align: center;
+      line-height: 64px;
+      span.zhushouSpan{
+        color: #fff;
+        font-size: 26px;
+        background: url('../../Img/lotteryBetting/zhushouIcon.png') 15px center no-repeat;
+        background-size: 24px 24px;
+        padding-left:43px;
+      }
+    }
+  }
+  /*选球*/
+  .lineBox{width:100%;border-top:1PX solid #E8E8EA;padding-bottom:30px;background: #f4f5f9;}
+  .BallChoice{display:flex;width:100%;box-sizing:border-box;background: #f4f5f9;padding:0 30px;
+    flex-wrap: wrap;
+    &.redBallChoice{color: #FF4747;}
+    div.column{width:100%;display: flex;height:70px;margin:0 0 21px;justify-content: space-between;}
+    div.column div{position:relative;background: #fff;box-sizing: border-box;
+      width:70px;height: 70px;text-align: center;line-height:70px;border-radius: 70px;
+      font-size:34px;
+      border:1PX solid #eee;
+      &.redBg{background: #F22F12;color:#fff;}
+    }
+    div.column div.div1{width:103px;height:70px;border:0;background:transparent;text-align: center;
+      span{font-size: 28px;color: #999999;padding:5px 20px;background: #E9E9E9;border-radius: 100px;}
+    }
+    div.column div.div2{width:130px;height:70px;border:0;background:transparent;text-align: left;
+      span{display:inline-block;width:130px;height:50px;line-height:50px;font-size: 28px;color: #999999;
+        background: #E9E9E9;border-radius: 100px;text-align: center;}
+    }
+    div.column div.emptyDiv{width:70px;height:70px;background: #f4f5f9;border: 0;}
+    div.column div.emptyDiv1{width:103px;height:70px;border:0;background:transparent;}
+    div.column div.emptyDiv2{width:130px;height:70px;border:0;background:transparent;}
+    div.column p.hoverRedBg.active{display:block;}
+    div.column p.hoverRedBg{position: absolute;bottom:-1PX;width:118px;height:178px;left:-24px;
+      background: url('../../Img/lotteryBetting/jiaohu-red.png') center bottom no-repeat;
+      background-size:116px auto;
+      display:none;
+      span{color:#fff;line-height:120px;}
+    }
+    /*遗漏*/
+    div.column_missing{position:relative;top:-10px;width:100%;display: flex;height:35px;justify-content: space-between;}
+    div.column_missing.last_p40{padding-bottom:40px;}
+    div.column_missing div{position:relative;
+      width:70px;height:35px;text-align: center;
+      font-size:26px;color:#999;
+      &.redColor{color: #f22f12;}
+    }
+    div.column_missing div.emptyDiv1{width:103px;}
+    div.column_missing div.emptyDiv2{width:130px;}
+  }
+
+}
+

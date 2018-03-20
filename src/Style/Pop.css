@@ -1,0 +1,376 @@
+/**/
+#Pop .maskPop {
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+#Pop .pop {
+  position: fixed;
+  z-index: 101;
+  top: 50%;
+  left: 50%;
+  width: 584px;
+  height: auto;
+  margin-left: -292px;
+  margin-top: -200px;
+  background: #fff;
+  border-radius: 18px;
+}
+
+#Pop .popTitle {
+  width: 100%;
+  height: 88px;
+  background: #F9F9F9;
+  border-top-left-radius: 18px;
+  border-top-right-radius: 18px;
+  font-size: 36px;
+  color: #191919;
+  text-align: center;
+  line-height: 88px;
+}
+
+#Pop .popBody {
+  padding: 0 30px;
+  box-sizing: border-box;
+}
+
+#Pop .popBody p {
+  color: #FF542D;
+  font-size: 38px;
+  text-align: center;
+  margin: 68px auto 60px;
+}
+
+#Pop .popBody a {
+  display: block;
+  width: 312px;
+  height: 78px;
+  line-height: 78px;
+  background: #FF542D;
+  text-align: center;
+  color: #FFFFFF;
+  font-size: 36px;
+  border-radius: 78px;
+  margin: 0 auto 40px;
+}
+
+/**/
+#Pop1 .maskPop {
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+#Pop1 .pop {
+  position: fixed;
+  z-index: 101;
+  top: 50%;
+  left: 50%;
+  width: 570px;
+  height: 362px;
+  margin-left: -292px;
+  margin-top: -250px;
+  background: #fff;
+  border-radius: 18px;
+}
+
+#Pop1 .pop1 {
+  position: fixed;
+  z-index: 101;
+  top: 50%;
+  left: 50%;
+  width: 570px;
+  height: 400px;
+  margin-left: -292px;
+  margin-top: -250px;
+  background: #fff;
+  border-radius: 18px;
+}
+
+#Pop1 .popBody {
+  height: 274px;
+  padding: 0 30px;
+  box-sizing: border-box;
+}
+
+#Pop1 .popBody1 {
+  height: 310px;
+  padding: 0 30px;
+  box-sizing: border-box;
+}
+
+#Pop1 .popBody p {
+  color: #191919;
+  font-size: 26px;
+  text-align: center;
+  padding: 40px 0 58px;
+}
+
+#Pop1 .popBody p.p1, #Pop1 .popBody1 p.p1 {
+  font-size: 32px;
+  padding: 40px 0 0;
+  color: #191919;
+}
+
+#Pop1 .popBody1 p {
+  color: #666;
+  font-size: 26px;
+  text-align: center;
+  padding: 30px 0 50px;
+}
+
+#Pop1 .popFoot {
+  height: 87px;
+  border-top: 1PX solid #E8E8EA;
+}
+
+#Pop1 .popFoot a {
+  display: block;
+  float: left;
+  width: 50%;
+  font-size: 34px;
+  height: 87px;
+  line-height: 87px;
+  text-align: center;
+}
+
+#Pop1 .popFoot a.btn1 {
+  color: #999999;
+  box-sizing: border-box;
+  border-right: 1PX solid #E8E8EA;
+  border-bottom-left-radius: 18px;
+}
+
+#Pop1 .popFoot a.btn2 {
+  color: #0076FF;
+  border-bottom-right-radius: 18px;
+}
+
+#Pop1 .popFoot a.btn2Gray {
+  color: #999999;
+}
+
+#Pop1 .popFoot a:active {
+  background: #ededed;
+}
+
+#Pop1 .popBody .codeImg {
+  float: left;
+  display: block;
+  width: 338px;
+  height: 70px;
+}
+
+#Pop1 .popBody .codeInpt {
+  float: right;
+  display: block;
+  width: 144px;
+  height: 70px;
+  background: #EAEAEA;
+  border-radius: 5px;
+  border: 0;
+  padding: 10px;
+  box-sizing: border-box;
+  font-size: 28px;
+  text-align: center;
+}
+
+#Pop1 .popBody1 .codeInpt {
+  float: left;
+  display: block;
+  width: 326px;
+  height: 70px;
+  border: 1PX solid #ddd;
+  font-size: 30px;
+  padding-left: 12px;
+  background: #fff;
+  border-radius: 0;
+  box-shadow: none;
+  outline: none;
+  -webkit-appearance: none;
+}
+
+#Pop1 .popBody1 .codeBtn {
+  float: left;
+  display: block;
+  width: 160px;
+  color: #3595FF;
+  height: 74px;
+  line-height: 50px;
+  border: 1PX solid #ddd;
+  border-left: none;
+  padding: 10px;
+  box-sizing: border-box;
+  font-size: 30px;
+  text-align: center;
+
+}
+
+/*竞技彩弹框*/
+#Pop2 .maskPop {
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+#Pop2 .pop {
+  position: fixed;
+  z-index: 101;
+  top: 50%;
+  left: 50%;
+  width: 570px;
+  height: 722px;
+  margin-left: -292px;
+  margin-top: -380px;
+  background: #fff;
+  border-radius: 18px;
+}
+
+#Pop2 .popBody {
+  box-sizing: border-box;
+  padding: 30px 0 0 20px;
+}
+
+#Pop2 .popBody .lotteryPop {
+}
+
+#Pop2 .popBody .lotteryPop .margin_r20 {
+  margin-right: 20px;
+}
+
+#Pop2 .popBody .lotteryPop div {
+  float: left;
+  width: 330px;
+}
+
+#Pop2 .popBody .lotteryPop img {
+  display: block;
+  float: left;
+  width: 170px;
+  height: 170px;
+}
+
+#Pop2 .popBody .lotteryPop p.p20 {
+  font-size: 28px;
+  color: #525252;
+  letter-spacing: -0.09px;
+  padding-top: 30px;
+  padding-bottom: 15px;
+}
+
+#Pop2 .popBody .lotteryPop p.p21 {
+  color: #737373;
+  font-size: 24px;
+  letter-spacing: -0.07px;
+  line-height: 33px;
+}
+
+#Pop2 .popBody .lotteryPop .margin_l40 {
+  width: 300px;
+  margin: 10px 0 40px 40px;
+}
+
+#Pop2 .popBody .lotteryPop .margin_l40 span {
+  display: inline-block;
+  width: 30px;
+  height: 20px;
+  border-radius: 3px;
+  margin-right: 10px;
+}
+
+#Pop2 .popBody .lotteryPop .margin_l40 span.span20 {
+  background: #F3442A;
+}
+
+#Pop2 .popBody .lotteryPop .margin_l40 span.span21 {
+  background: #FFB10D;
+}
+
+#Pop2 .popBody .lotteryPop .margin_l40 span.span22 {
+  background: #2395FF;
+}
+
+#Pop2 .popBody .lotteryPop img.img1 {
+  margin-top: 20px;
+}
+
+#Pop2 .popFoot {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 90px;
+  border-top: 1PX solid #eee;
+}
+
+#Pop2 .popFoot a {
+  display: block;
+  width: 100%;
+  height: 90px;
+  font-size: 34px;
+  color: #2395FF;
+  text-align: center;
+  line-height: 90px;
+}
+
+#Pop2 .closed {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 70px;
+  height: 60px;
+  background: url('../Img/Find/closed.png') center center no-repeat;
+  background-size: 24px 24px;
+}
+/*有图片弹框*/
+#Pop3 .maskPop {
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+#Pop3 .pop {
+  position: fixed;
+  z-index: 101;
+  top: 50%;
+  left: 50%;
+  width: 570px;
+  height:auto;
+  margin-left: -292px;
+  margin-top: -350px;
+  background: #fff;
+  border-radius: 18px;
+}
+#Pop3 .pop .popTitle{color: #222222;font-size: 32px;padding:36px 0;text-align: center;}
+#Pop3 .pop .popBody{width:428px;margin:0 auto;color: #666666;font-size: 24px;padding-bottom:36px; line-height: 35px;}
+#Pop3 .pop .popBody p.pTel{width:428px;height: 241px;margin-bottom:26px;
+  background: url('../Img/tell.png') 0 0 no-repeat;
+  background-size:428px 241px;
+}
+#Pop3 .pop .popBody p.pYxq{width:428px;height: 241px;margin-bottom:36px;
+  background: url('../Img/yxq.png') 0 0 no-repeat;
+  background-size:428px 241px;
+}
+#Pop3 .pop .popBody p.pCvv{width:428px;height: 241px;margin-bottom:36px;
+  background: url('../Img/cvv.png') 0 0 no-repeat;
+  background-size:428px 241px;
+}
+#Pop3 .pop .popBtn{display: block;width:100%;height: 90px;line-height: 90px;text-align: center;
+  color: #2395FF;font-size: 30px;border-top:1PX solid #eee;
+}

@@ -1,0 +1,12 @@
+#link_page {
+  height: 100%;
+}
+#link_page .ifrDiv {
+  display: block;
+  -webkit-overflow-scrolling: touch;
+  overflow: auto;
+}
+#link_page .iframe {
+  width: 100% !important;
+  height: 99%;
+}

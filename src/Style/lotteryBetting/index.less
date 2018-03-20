@@ -1,0 +1,1161 @@
+#lotteryBetting {
+  height: 100%;
+  background: #fff;
+  .dateDiv {
+    width: 100%;
+    height: 64px;
+    background: url('../../Img/lotteryBetting/dateIcon2.png') 93% center no-repeat #F5F4F9;
+    background-size: 20px 20px;
+    color: #737373;
+    font-size: 26px;
+    padding-left: 30px;
+    box-sizing: border-box;
+    line-height: 64px;
+    &.down {
+      background: url('../../Img/lotteryBetting/dateIcon1.png') 93% center no-repeat #F5F4F9;
+      background-size: 20px 20px;
+    }
+    &.noPic {
+      background: #F5F4F9;
+    }
+  }
+  .bettingBoxWrap {
+    border-bottom: 1PX solid #ececec;
+  }
+  .bfBlack {
+    color: #191919 !important;
+  }
+  .bettingLabel {
+    position: absolute;
+    top: 0;
+    left: 0;
+    span {
+      position: absolute;
+      top: 5px;
+      left: 5px;
+      font-size: 26px;
+      color: #fff;
+    }
+    label {
+      display: block;
+      &.label_1 {
+        width: 0;
+        height: 0;
+        border-width: 30px;
+        border-style: solid;
+        border-color: #03B171 transparent transparent #03B171;
+      }
+      &.label_2 {
+        width: 0;
+        height: 0;
+        border-width: 30px;
+        border-style: solid;
+        border-color: #DD4A4A transparent transparent #DD4A4A;
+      }
+    }
+
+  }
+  .bettingBox {
+    position: relative;
+    width: 100%;
+    height: 270px;
+    background: #fff;
+    padding: 37px 0;
+    box-sizing: border-box;
+
+    .bettingBox_fl {
+      height: 100px;
+      width: 19%;
+      padding-top: 62px;
+      color: #999999;
+      font-size: 22px;
+      text-align: center;
+      line-height: 32px;
+      p {
+        &.arrow {
+          background: url('../../Img/lotteryBetting/arrowIcon1.png') center bottom no-repeat;
+          background-size: 25px 25px;
+          height: 36px;
+        }
+        &.arrow.down {
+          background: url('../../Img/lotteryBetting/arrowIcon2.png') center bottom no-repeat;
+          background-size: 25px 25px;
+          height: 36px;
+        }
+      }
+    }
+    .bettingBox_fr {
+      position: absolute;
+      left: 145px;
+      top: 0;
+      width: 81%;
+      .bettingBox_fr_title {
+        width: 100%;
+        height: 54px;
+        padding-top: 36px;
+        p {
+          width: 34px;
+          text-align: center;
+          float: left;
+          color: #999999;
+          font-size: 20px;
+
+        }
+        ul {
+          position: relative;
+          overflow: hidden;
+          height: 54px;
+          color: #191919;
+          font-size: 30px;
+          line-height: 54px;
+          li {
+            float: left;
+            &.li2 {
+              width: 15%;
+              text-align: center;
+            }
+            &.li1 {
+              width: 40%;
+              text-align: right;
+            }
+            &.li3 {
+              width: 40%;
+              text-align: left;
+            }
+          }
+        }
+      }
+      table {
+        width: 97%;
+        border: 1PX solid #eee;
+        box-sizing: border-box;
+        &.table1 {
+          width: 92%;
+        }
+        tr:last-child {
+          td {
+            border-bottom: 0;
+          }
+        }
+        .td1 {
+          width: 5%;
+          background: #F5F4F9;
+          color: #999999;
+          font-size: 20px;
+          height: 68px;
+          border-bottom: 1PX solid #eee;
+          text-align: center;
+          &.tdGreen {
+            background: #03B171;
+            color: #FFFFFF;
+          }
+          &.tdRed {
+            background: #DD4A4A;
+            color: #FFFFFF;
+          }
+          &.tdBlue {
+            background: #008CD2;
+            color: #FFFFFF;
+          }
+          &.tdYellow {
+            background: #FFCA4F;
+            color: #FFFFFF;
+          }
+        }
+        .td2 {
+          width: 28%;
+          color: #525252;
+          font-size: 26px;
+          border-left: 1PX solid #eee;
+          box-sizing: border-box;
+          height: 68px;
+          border-bottom: 1PX solid #eee;
+          padding: 0 2%;
+          text-align: center;
+          .grayColor {
+            width: 100%;
+            color: #999999;
+            text-align: center
+          }
+          &.tdOrange {
+            background: #FB6247;
+            span {
+              color: #FFFFFF;
+              text-align: center;
+              &.span1 {
+                color: #FFFFFF;
+                margin-left:10px;
+              }
+            }
+          }
+          span {
+            display: inline-block;
+            text-align:left;
+            &.span1 {
+              color: #737373;
+              text-align: right;
+            }
+          }
+        }
+        .td3 {
+          width: 11%;
+          color: #666666;
+          font-size: 22px;
+          border-left: 1PX solid #eee;
+          box-sizing: border-box;
+          height: 68px;
+          text-align: center;
+          &.tdPink {
+            background: rgba(251, 98, 71, 0.12);
+          }
+          span {
+            color: #DD4A4A;
+          }
+        }
+        .td4 {
+          width: 28%;
+          color: #525252;
+          font-size: 26px;
+          border-left: 1PX solid #eee;
+          box-sizing: border-box;
+          height: 68px;
+          border-bottom: 1PX solid #eee;
+          padding: 0 3%;
+          .grayColor {
+            width: 100%;
+            color: #999999;
+            text-align: center
+          }
+          &.tdOrange {
+            background: #FB6247;
+            span {
+              color: #FFFFFF;
+              &.span1 {
+                color: #FFFFFF;
+              }
+            }
+          }
+          span {
+            display: inline-block;
+            width: 50%;
+            &.span1 {
+              text-align: right;
+              color: #737373;
+            }
+          }
+        }
+        .td5 {
+          height: 88px;
+        }
+      }
+    }
+  }
+  .bettingBoxDown {
+    height: 0;
+    overflow: hidden;
+    background: #fff;
+    -webkit-transition: all 0.2s linear;
+    -moz-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+    &.active {
+      height: 318px;
+      background: #383A35;
+    }
+    &.lqBoxDown {
+      &.active {
+        height: 153px;
+        background: #383A35;
+      }
+    }
+    table {
+      width: 100%;
+      font-size: 22px;
+      text-align: center;
+      .td1 {
+        width: 22%;
+        color: #DDB14B;
+        height: 51px;
+        border-bottom: 1PX solid rgba(24, 24, 24, 0.34);
+        box-sizing: border-box;
+        &.lqTd1 {
+          width: 20%
+        }
+      }
+      .td2 {
+        width: 19.5%;
+        color: #FFFFFF;
+        height: 51px;
+        border-bottom: 1PX solid rgba(24, 24, 24, 0.34);
+        box-sizing: border-box;
+        border-left: 1PX solid rgba(24, 24, 24, 0.34);
+        &.lqTd2 {
+          width: 80%
+        }
+        .colorRed {
+          color: #DD4A4A;
+        }
+        .colorBlue {
+          color: #3465a6;
+        }
+        .colorGreen {
+          color: #02b171;
+        }
+        .fontS24 {
+          font-size: 24px;
+        }
+        div {
+          display: inline-block;
+          width: 50%;
+        }
+        .div2 {
+          width: 33%;
+        }
+      }
+    }
+    .analysisDiv {
+      height: 63px;
+      line-height: 65px;
+      background: #494949;
+      color: #FFFFFF;
+      font-size: 24px;
+      text-align: center;
+      .icon {
+        display: inline-block;
+        width: 26px;
+        height: 63px;
+        margin-right: 10px;
+        vertical-align: top;
+        background: url('../../Img/lotteryBetting/zuqiuIcon.png') center center no-repeat;
+        background-size: 26px auto;
+      }
+      .icon_lanQiu {
+        display: inline-block;
+        width: 26px;
+        height: 63px;
+        vertical-align: top;
+        margin-right: 10px;
+        background: url('../../Img/lotteryBetting/lanqiuIcon.png') center center no-repeat;
+        background-size: 26px auto;
+      }
+      .arrow {
+        display: inline-block;
+        width: 20px;
+        height: 63px;
+        margin-left: 5px;
+        vertical-align: middle;
+        background: url('../../Img/lotteryBetting/arrowIcon3.png') center center no-repeat;
+        background-size: 20px auto;
+      }
+    }
+  }
+  .bettingFooter {
+    z-index: 9999;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 98px;
+    background: #F9F9F9;
+    box-shadow: 0 2px 7px 0 rgba(152, 143, 143, 0.50);
+    .bettingFooterInfo {
+      position: relative;
+      top: 22px;
+      left: 0;
+      height: 60px;
+      overflow: hidden;
+      .emptyClear {
+        float: left;
+        width: 124px;
+        height: 54px;
+        border-right: 1PX solid #DEDDDD;
+        margin-right: 40px;
+        background: url('../../Img/lotteryBetting/clearIcon.png') center center no-repeat;
+        background-size: 34px auto;
+      }
+      .choicePopover {
+        float: left;
+        width: 124px;
+        height: 54px;
+        border-right: 1PX solid #DEDDDD;
+        margin-right: 40px;
+        color: #FB6247;
+        font-size: 32px;
+        text-align: center;
+        line-height: 54px;
+      }
+      .footerInfo {
+        float: left;
+        p.p1 {
+          color: #000000;
+          font-size: 28px;
+          padding-bottom: 3px;
+          span {
+            color: #DD4A4A;
+          }
+        }
+        p.p2 {
+          color: #999999;
+          font-size: 22px;
+        }
+        p.p3 {
+          color: #000000;
+          font-size: 32px;
+          line-height: 54px;
+          span {
+            color: #DD4A4A;
+          }
+        }
+      }
+    }
+    .nextBtn {
+      position: absolute;
+      top: 15px;
+      right: 30px;
+      display: block;
+      width: 145px;
+      height: 70px;
+      background: #FB6247;
+      border-radius: 4px;
+      color: #FFFFFF;
+      font-size: 36px;
+      text-align: center;
+      line-height: 70px;
+    }
+  }
+}
+
+/*胜平负*/
+.mar_b98 {
+  margin-bottom: 98px;
+}
+
+#lotteryBetting {
+  .shengPingBox {
+    position: relative;
+    width: 100%;
+    height: 195px;
+    background: #fff;
+    padding: 37px 0;
+    box-sizing: border-box;
+
+    .bettingBox_fl {
+      float: left;
+      height: 115px;
+      width: 19%;
+      color: #999999;
+      font-size: 22px;
+      text-align: center;
+      line-height: 32px;
+      p {
+        &.arrow {
+          background: url('../../Img/lotteryBetting/arrowIcon1.png') center bottom no-repeat;
+          background-size: 25px 25px;
+          height: 36px;
+        }
+        &.arrow.down {
+          background: url('../../Img/lotteryBetting/arrowIcon2.png') center bottom no-repeat;
+          background-size: 25px 25px;
+          height: 36px;
+        }
+      }
+    }
+    .bettingBox_fr {
+      float: left;
+      width: 81%;
+      height: 115px;
+      table {
+        width: 95%;
+        border: 1PX solid #e0e0e0;
+        box-sizing: border-box;
+        height: 115px;
+        border-collapse:collapse;
+        &.choose21Table {
+          width: 91%;
+        }
+        tr:last-child {
+          td {
+            border-bottom: 0;
+          }
+        }
+        td {
+          height: 113px;
+          text-align: center;
+          box-sizing: border-box;
+          &.border_lr {
+            border-left: 1PX solid #efefef;
+            border-right: 1PX solid #efefef;
+          }
+          &.border_lr2 {
+            border-right: 1PX solid #efefef;
+          }
+          &.redBg {
+            background: #FC5638;
+            p.p1 {
+              color: #fff;
+            }
+            p.p2 {
+              color: #fff;
+            }
+            .mainSpan {
+              border: 1px solid #fff;
+              box-sizing: border-box;
+            }
+          }
+          p.p1 {
+            color: #212121;
+            font-size: 30px;
+            padding-bottom: 5px;
+          }
+          p.p2 {
+            font-size: 24px;
+            color: #737373;
+          }
+        }
+        .td2 {
+          width: 10%;
+        }
+        .td1 {
+          width: 20%;
+        }
+        .td3 {
+          width: 5%;
+          font-size: 20px;
+          &.tdGreen {
+            background: #03B171;
+            color: #FFFFFF;
+          }
+          &.tdRed {
+            background: #DD4A4A;
+            color: #FFFFFF;
+          }
+          &.tdGray {
+            background: #F5F4F9;
+            color: #999;
+          }
+        }
+        .td4 {
+          width: 37.5%;
+        }
+      }
+    }
+  }
+}
+
+span.greenSpan {
+  color: #03B171;
+}
+
+span.redSpan {
+  color: #DD4A4A;
+}
+
+.redBg {
+  span.greenSpan {
+    color: #FFF;
+  }
+  span.redSpan {
+    color: #FFF;
+  }
+}
+
+.mainSpan {
+  background: #FC5638;
+  border-radius: 4px;
+  color: #FFFFFF;
+  font-size: 11PX;
+  margin-left: 8px;
+  padding: 0px 3px 3px 3px;
+  vertical-align: top;
+  box-sizing: border-box;
+  border: 1px solid #FC5638;
+}
+
+/*竞彩篮球*/
+.bettingBoxBasketball {
+  position: relative;
+  width: 100%;
+  height: 500px;
+  background: #fff;
+  padding: 37px 0;
+  box-sizing: border-box;
+
+  .bettingBox_fl {
+    height: 100px;
+    width: 19%;
+    padding-top: 160px;
+    color: #999999;
+    font-size: 22px;
+    text-align: center;
+    line-height: 32px;
+    p {
+      &.arrow {
+        background: url('../../Img/lotteryBetting/arrowIcon1.png') center bottom no-repeat;
+        background-size: 25px 25px;
+        height: 36px;
+      }
+      &.arrow.down {
+        background: url('../../Img/lotteryBetting/arrowIcon2.png') center bottom no-repeat;
+        background-size: 25px 25px;
+        height: 36px;
+      }
+    }
+  }
+  .bettingBox_fr {
+    position: absolute;
+    left: 145px;
+    top: 0;
+    width: 81%;
+    .bettingBox_fr_title {
+      width: 100%;
+      height: 54px;
+      padding-top: 36px;
+      ul {
+        position: relative;
+        overflow: hidden;
+        height: 54px;
+        color: #191919;
+        font-size: 30px;
+        line-height: 54px;
+        li {
+          float: left;
+          &.li2 {
+            width: 15%;
+            text-align: center;
+          }
+          &.li1 {
+            width: 40%;
+            text-align: right;
+          }
+          &.li3 {
+            width: 40%;
+            text-align: left;
+          }
+
+        }
+      }
+    }
+    table {
+      width: 97%;
+      border: 1PX solid #eee;
+      box-sizing: border-box;
+      table-layout: fixed;
+      &.table1 {
+        width: 92%;
+      }
+      tr:last-child {
+        td {
+          border-bottom: 0;
+        }
+      }
+      .td1 {
+        width: 6%;
+        background: #F5F4F9;
+        color: #999999;
+        font-size: 11PX;
+        height: 88px;
+        border-bottom: 1PX solid #eee;
+        text-align: center;
+        &.tdGreen {
+          background: #03B171;
+          color: #FFFFFF;
+        }
+        &.tdRed {
+          background: #DD4A4A;
+          color: #FFFFFF;
+        }
+        &.tdBlue {
+          background: #008CD2;
+          color: #FFFFFF;
+        }
+        &.tdYellow {
+          background: #FFCA4F;
+          color: #FFFFFF;
+        }
+      }
+
+      .td5 {
+        width: 47%;
+        height: 92px;
+        border-bottom: 1PX solid #eee;
+        border-left: 1PX solid #eee;
+        text-align: center;
+        color: #000000;
+        font-size: 24px;
+        box-sizing: border-box;
+        &.tdOrange {
+          background: #FB6247;
+          color: #fff
+        }
+        &.h_66 {
+          height: 88px;
+        }
+        &.tdOrange {
+          background: #FB6247;
+          p {
+            color: #FFFFFF;
+            &.p3 .redColor {
+              color: #FFFFFF;
+            }
+            &.p3 .greenColor {
+              color: #FFFFFF;
+            }
+            &.p4 {
+              color: #FFFFFF;
+            }
+          }
+        }
+        p.p3 {
+          line-height: 32px;
+          .greenColor {
+            color: #03B171;
+          }
+          .redColor {
+            color: #DD4A4A;
+          }
+        }
+        p.p4 {
+          color: #737373;
+          line-height: 32px;
+        }
+        p.p5 {
+          overflow: hidden;
+          text-overflow: ellipsis;
+          white-space: nowrap;
+          span {
+            color: #999999;
+          }
+        }
+      }
+    }
+  }
+}
+
+/*北京单场*/
+.bettingBoxSingle {
+  position: relative;
+  width: 100%;
+  height: 198px;
+  background: #fff;
+  padding: 30px 0 20px;
+  box-sizing: border-box;
+
+  .bettingBox_fl {
+    height: 100px;
+    width: 19%;
+    padding-top: 18px;
+    color: #999999;
+    font-size: 22px;
+    text-align: center;
+    line-height: 32px;
+    p {
+      &.arrow {
+        background: url('../../Img/lotteryBetting/arrowIcon1.png') center bottom no-repeat;
+        background-size: 25px 25px;
+        height: 36px;
+      }
+      &.arrow.down {
+        background: url('../../Img/lotteryBetting/arrowIcon2.png') center bottom no-repeat;
+        background-size: 25px 25px;
+        height: 36px;
+      }
+    }
+  }
+  .bettingBox_fr {
+    position: absolute;
+    left: 145px;
+    top: 0;
+    width: 81%;
+    .bettingBox_fr_title {
+      width: 100%;
+      height: 54px;
+      padding-top: 36px;
+      ul {
+        position: relative;
+        overflow: hidden;
+        height: 54px;
+        color: #191919;
+        font-size: 30px;
+        line-height: 54px;
+        li {
+          float: left;
+          &.li2 {
+            width: 15%;
+            text-align: center;
+          }
+          &.li1 {
+            width: 40%;
+            text-align: right;
+          }
+          &.li3 {
+            width: 40%;
+            text-align: left;
+          }
+        }
+      }
+    }
+    table {
+      width: 92%;
+      table-layout: fixed;
+      border: 1PX solid #eee;
+      box-sizing: border-box;
+      td {
+        height: 70px;
+        font-size: 26px;
+        color: #525252;
+        text-align: center;
+        &.redRed {
+          background: #FC5638;
+          color: #fff;
+          width: 100%;
+          height: 70px;
+          text-overflow: ellipsis;
+          white-space: nowrap;
+          overflow: hidden;
+        }
+      }
+    }
+  }
+}
+
+/*上下单双*/
+.bettingBoxShangxia {
+  position: relative;
+  width: 100%;
+  height: 260px;
+  background: #fff;
+  padding: 30px 0 35px;
+  box-sizing: border-box;
+
+  .bettingBox_fl {
+    height: 100px;
+    width: 19%;
+    padding-top: 56px;
+    color: #999999;
+    font-size: 22px;
+    text-align: center;
+    line-height: 32px;
+    p {
+      &.arrow {
+        background: url('../../Img/lotteryBetting/arrowIcon1.png') center bottom no-repeat;
+        background-size: 25px 25px;
+        height: 36px;
+      }
+      &.arrow.down {
+        background: url('../../Img/lotteryBetting/arrowIcon2.png') center bottom no-repeat;
+        background-size: 25px 25px;
+        height: 36px;
+      }
+    }
+  }
+  .bettingBox_fr {
+    position: absolute;
+    left: 145px;
+    top: 0;
+    width: 81%;
+    .bettingBox_fr_title {
+      width: 100%;
+      height: 54px;
+      padding-top: 36px;
+      ul {
+        position: relative;
+        overflow: hidden;
+        height: 54px;
+        color: #191919;
+        font-size: 30px;
+        line-height: 54px;
+        li {
+          float: left;
+          &.li2 {
+            width: 15%;
+            text-align: center;
+          }
+          &.li1 {
+            width: 40%;
+            text-align: right;
+          }
+          &.li3 {
+            width: 40%;
+            text-align: left;
+          }
+        }
+      }
+    }
+    table {
+      width: 94%;
+      table-layout: fixed;
+      border: 1PX solid #eee;
+      box-sizing: border-box;
+      td {
+        height: 128px;
+        text-align: center;
+        font-size: 28px;
+        color: #212121;
+        &.border_lr {
+          border-left: 1PX solid #efefef;
+          border-right: 1PX solid #efefef;
+        }
+        &.border_lr2 {
+          border-right: 1PX solid #efefef;
+        }
+        &.redRed {
+          background: #FC5638;
+          color: #fff;
+          text-overflow: ellipsis;
+          white-space: nowrap;
+          overflow: hidden;
+          p.p1 {
+            color: #fff;
+          }
+        }
+        p.p1 {
+          color: #737373;
+          font-size: 24px;
+          padding-top: 10px;
+        }
+      }
+
+    }
+  }
+}
+
+table.sxds {
+  width: 100%;
+  table-layout: fixed;
+  border: 1PX solid #eee;
+  box-sizing: border-box;
+  td {
+    height: 128px;
+    text-align: center;
+    font-size: 28px;
+    color: #212121;
+    &.border_lr {
+      border-left: 1PX solid #efefef;
+      border-right: 1PX solid #efefef;
+    }
+    &.border_lr2 {
+      border-right: 1PX solid #efefef;
+    }
+    &.redRed {
+      background: #FC5638;
+      color: #fff;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      overflow: hidden;
+      p.p1 {
+        color: #fff;
+      }
+    }
+    p.p1 {
+      color: #737373;
+      font-size: 24px;
+      padding-top: 10px;
+    }
+  }
+}
+
+/*总进球*/
+.bettingBoxZongjinqiu {
+  position: relative;
+  width: 100%;
+  height: 260px;
+  background: #fff;
+  padding: 30px 0 35px;
+  box-sizing: border-box;
+
+  .bettingBox_fl {
+    height: 100px;
+    width: 19%;
+    padding-top: 70px;
+    color: #999999;
+    font-size: 22px;
+    text-align: center;
+    line-height: 32px;
+    p {
+      &.arrow {
+        background: url('../../Img/lotteryBetting/arrowIcon1.png') center bottom no-repeat;
+        background-size: 25px 25px;
+        height: 36px;
+      }
+      &.arrow.down {
+        background: url('../../Img/lotteryBetting/arrowIcon2.png') center bottom no-repeat;
+        background-size: 25px 25px;
+        height: 36px;
+      }
+    }
+  }
+  .bettingBox_fr {
+    position: absolute;
+    left: 145px;
+    top: 0;
+    width: 81%;
+    .bettingBox_fr_title {
+      width: 100%;
+      height: 54px;
+      padding-top: 36px;
+      ul {
+        position: relative;
+        overflow: hidden;
+        height: 54px;
+        color: #191919;
+        font-size: 30px;
+        line-height: 54px;
+        li {
+          float: left;
+          &.li2 {
+            width: 15%;
+            text-align: center;
+          }
+          &.li1 {
+            width: 40%;
+            text-align: right;
+          }
+          &.li3 {
+            width: 40%;
+            text-align: left;
+          }
+        }
+      }
+    }
+    table {
+      width: 94%;
+      table-layout: fixed;
+      border: 1PX solid #eee;
+      box-sizing: border-box;
+      tr:last-child {
+        td {
+          border-bottom: 0;
+        }
+      }
+      td {
+        height: 70px;
+        text-align: center;
+        font-size: 26px;
+        border-bottom: 1PX solid #eee;
+        &.border_lr {
+          border-left: 1PX solid #efefef;
+          border-right: 1PX solid #efefef;
+        }
+        &.border_lr2 {
+          border-right: 1PX solid #efefef;
+        }
+        &.redRed {
+          background: #FC5638;
+          color: #fff;
+          text-overflow: ellipsis;
+          white-space: nowrap;
+          overflow: hidden;
+          span.span1 {
+            color: #fff;
+          }
+          span.span2 {
+            color: #fff;
+          }
+        }
+        span.span1 {
+          display: inline-block;
+          padding-left: 5%;
+          width: 30%;
+          color: #333;
+          text-align: left;
+        }
+        span.span2 {
+          display: inline-block;
+          width: 65%;
+          color: #737373;
+          text-align: left;
+        }
+      }
+
+    }
+  }
+}
+
+table.bjdcZjq {
+  width: 100%;
+  table-layout: fixed;
+  border: 1PX solid #eee;
+  box-sizing: border-box;
+  tr:last-child {
+    td {
+      border-bottom: 0;
+    }
+  }
+  td {
+    height: 70px;
+    text-align: center;
+    font-size: 26px;
+    border-bottom: 1PX solid #eee;
+    &.border_lr {
+      border-left: 1PX solid #efefef;
+      border-right: 1PX solid #efefef;
+    }
+    &.border_lr2 {
+      border-right: 1PX solid #efefef;
+    }
+    &.redRed {
+      background: #FC5638;
+      color: #fff;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      overflow: hidden;
+      span.span1 {
+        color: #fff;
+      }
+      span.span2 {
+        color: #fff;
+      }
+    }
+    span.span1 {
+      display: inline-block;
+      padding-left: 5%;
+      width: 30%;
+      color: #525252;
+      text-align: left;
+    }
+    span.span2 {
+      display: inline-block;
+      width: 65%;
+      color: #737373;
+      text-align: left;
+    }
+  }
+
+}
+/**箭头**/
+.Newarrow{position: absolute;top:44PX;right:0px;width:60px;height:82px;z-index: 1000; background: #fff}
+.Newarrow1{position: absolute;top:0PX;right:0px;width:60px;height:82px;z-index: 1000;background: #fff}
+.Newarrow span,.Newarrow1 span{display: block;width:30px;height:80px; margin: 0 auto;
+  background:url('../../Img/lotteryBetting/arrowIcon1.png') 0 center no-repeat;background-size: 30px 30px;}
+.menu-mask {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  opacity: 0.4;
+  z-index: 89000;
+}
+.menuPop {
+  position: absolute;
+  z-index: 90000 !important;
+  width: 100%;
+  background: #fff;
+  padding-bottom:30px;
+  padding-top:10px;
+  .menuFlex{display:flex;height:82px;box-sizing: border-box;padding:20px 0 0 25px;
+    div{width:20%;text-align: center;height:60px;border:1PX solid #ddd;border-radius: 4px;box-sizing: border-box;
+      line-height:60px;font-size: 28px;color: #191919;margin-right:5.5%;
+      &:nth-child(4n){margin-right:0px;}
+    }
+    div.active{border:1px solid #f22f12;color:#ffffff;background: #FB6247;}
+  }
+  .menuFlex_3{display:flex;height:82px;box-sizing: border-box;padding:20px 0 0 25px;
+    div{width:28.5%;text-align: center;height:60px;border:1PX solid #ddd;border-radius: 4px;box-sizing: border-box;
+      line-height:60px;font-size: 28px;color: #191919;margin-right:5.5%;
+      &:nth-child(3n){margin-right:0px;}
+    }
+    div.active{border:1px solid #f22f12;color:#ffffff;background: #FB6247;}
+  }
+
+}

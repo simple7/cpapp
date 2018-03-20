@@ -1,0 +1,108 @@
+
+#loginBox{position:absolute;top:0;left:0;height: 100%;width: 100%;background: #fff;}
+
+/**/
+#loginBox .padd_Left30{padding-left:30px;padding-top:57px;box-sizing:border-box;}
+
+#loginBox .inputBox{position:relative;width:100%;height:90px;border-bottom: 1PX solid #E8E8EA;}
+#loginBox .inputName{width:20%;height:90px;color: #191919;line-height:110px;}
+
+#loginBox .inpt{position:absolute;left:20%;top:20px;width:60%;height:70px;font-size: 32px;
+  color:#191919;border:0;vertical-align: top;}
+#loginBox .downSpan{position: absolute;top:5px;right:30px;display:block;width:60px;height:85px;
+background:url('../../Img/Login/downIcon.png') center 51% no-repeat;background-size: 35px 20px;}
+#loginBox .selectUl{position:absolute;top:92px;left:0;z-index:10;width:95%;
+    border-bottom:1PX solid #E8E8EA;background-color: #fff;box-shadow: 0 0 14px 4px #F7ECEA;}
+#loginBox .selectUl li{position:relative;height:90px; line-height:90px;font-size: 32px;color: #999;
+padding-left:30px;box-sizing: border-box;}
+#loginBox .selectUl li .liSpan{display:block; height: 90px;line-height: 90px ;width: 80%}
+#loginBox .selectUl .delSpan1{position: absolute;top:0;right:5px;display:block;width:70px;height:90px;
+    background:url('../../Img/Login/delIcon.png') center center no-repeat;background-size: 30px 30px;
+}
+
+#loginBox .delSpan{position: absolute;top:5px;right:90px;display:block;width:40px;height:85px;
+background:url('../../Img/Login/delIcon.png') center center no-repeat;background-size: 30px 30px;}
+#loginBox .delSpan3{position: absolute;top:5px;right:30px;display:block;width:70px;height:85px;
+background:url('../../Img/Login/delIcon.png') center center no-repeat;background-size: 30px 30px;}
+#loginBox .delSpan4{position: absolute;top:5px;right:210px;display:block;width:40px;height:85px;
+background:url('../../Img/Login/delIcon.png') center center no-repeat;background-size: 30px 30px;}
+
+#loginBox .eyeSpan{position: absolute;top:5px;right:30px;display:block;width:60px;height:85px;}
+#loginBox .eyeSpan.eyeClose{background:url('../../Img/Login/eyeIcon_2.png') center center no-repeat;
+background-size: 42px 42px;}
+#loginBox .eyeSpan.eyeOpen{background:url('../../Img/Login/eyeIcon_1.png') center center no-repeat;
+background-size:42px 42px;}
+
+#loginBox .codeSpan{position: absolute;top:10px;right:30px;display:block;width:160px;height:70px;
+color: #FC5638;font-size: 26px; line-height: 70px; text-align: center;
+border-left:1PX solid #E8E8EA;}
+/**/
+#loginBox .loginBtn{display: block;width:100%;height:90px;line-height:90px;text-align: center;
+    color: #FFFFFF;font-size: 36px;margin-top:60px;
+    background: #FC9E8D;border-radius: 4px;}
+#loginBox .loginBtn.bgOrange{background: #FC5638;}
+.padd_right30{padding-right:30px;}
+
+#loginBox .troubleDiv{padding:40px 30px 0 0;}
+#loginBox .troubleLink1{font-size: 28px;color: #666666;}
+#loginBox .troubleLink2{float:right;font-size: 28px;color: #2C8FF2;}
+/**/
+#loginBox p.tipsP{color: #737373;font-size: 26px;margin-top:40px;text-align: center;margin-bottom:260px;}
+#loginBox p.tipsP a{color: #737373;}
+#loginBox p.tipsP a:active{text-decoration: underline;}
+#loginBox a.registerBtn{position:absolute;bottom:28px;left:50%;right:50%;margin-left:-114px;
+    display: block;width:227px;height:78px; line-height: 78px;letter-spacing:2px;
+text-align: center;border: 2px solid #FCB6A9;border-radius: 4px;color: #FC5638;font-size:30px;}
+
+#loginBox a.registerBtn1{
+    display: block;width:200px;height:40px; line-height:40px;letter-spacing:2px;
+text-align: center;color: #3B99FE;font-size:26px;margin:0 auto;}
+
+
+
+#loginBox .am-navbar{background-color: #FC5638;}
+#loginBox .am-icon-md{width:72px;height:136px;}
+#loginBox .am-navbar-title{font-size:36px;}
+#loginBox .am-navbar-left{padding-left:0;}
+
+.popContext{
+  text-align: center;
+
+}
+.popContext div{
+  height: 120px;
+  line-height: 120px;
+  border-bottom: #eee 1PX solid;
+}
+.popContext .title{
+  font-size: 26px;
+  color: #989898;
+
+}
+.popContext .popBtn{
+  font-size: 36px;
+}
+.popContext .popBtn:last-child{border-top:28px solid #e4e4e4;}
+/*新登录页面*/
+#loginBoxbg{position:absolute;top:0;left:0;width:100%;height:100%;
+  background: url(../../Img/Login/backgr.png) right 45% no-repeat #fff;
+background-size:711px auto;}
+#loginBoxbg div{position: absolute;top:50%;left:0;margin-top:-350px;width:100%;height:500px;}
+#loginBoxbg .logo{display: block;width:390px;height:auto;margin:0 auto;}
+#loginBoxbg .loginBtn1{display: block;width:470px;height:98px;line-height:98px;text-align: center;
+    color: #FFFFFF;font-size:40px;margin:150px auto 34px;
+    background: #FC5638;border-radius: 4px;letter-spacing: 9px;}
+#loginBoxbg .loginBtn2{display: block;width:470px;height:98px;line-height:98px;text-align: center;
+    color: #737373;font-size:40px;margin:0 auto;
+    background: #FFFFFF;border-radius: 4px;letter-spacing: 9px;}
+#loginBoxbg .loginBtn1:active{background: #fb3c1a;}
+#loginBoxbg .loginBtn2:active{background: #f0f0f0;}
+
+
+
+
+
+
+
+
+

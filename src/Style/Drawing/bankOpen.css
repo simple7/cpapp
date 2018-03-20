@@ -1,0 +1,27 @@
+#bankOpen{}
+.bankOpenList{background: #ffffff;width:100%;box-sizing: border-box;padding:0 0 0 30px;}
+.OpenTips{height: 100px; line-height: 130px;color:#999;font-size: 28px;border-bottom:1px solid #eee;}
+.OpenTips span{color:#fff;background: #FC5638;padding:0 14px;border-radius:6px;margin-left:30px;
+font-size: 26px;}
+.OpenTips.border_bNone{border-bottom:0px;}
+.openBox{height:100px;line-height:100px;border-bottom:1PX solid #eee;font-size: 32px;font-weight: bold;
+color:#191919;}
+.openBox img{float:left;display: block;width:50px;height: 50px;border-radius: 50px;
+margin:25px 20px 0 10px;}
+.openBox p{float:left;}
+
+.paytime_table{ width:95%; margin:1rem auto; font-size:.8rem; border-top:1PX solid #ddd;border-left:1PX solid #ddd; color:#666}
+.paytime_table th{ line-height:1rem; padding:.4rem 0; font-weight:normal; border-right:1PX solid #ddd;border-bottom:1PX solid #ddd;text-align:center}
+.paytime_table th.t{ font-weight:bold; line-height:1.3rem}
+.paytime_table th.t1{width:28%;}
+.paytime_table th.t2{width:72%;}
+.paytime_table td{line-height:1rem; padding:.5rem 3%; text-align:left; border-right:1PX solid #ddd;border-bottom:1PX solid #ddd}
+.paytime_table th strong{ display:inline-block; font-weight:normal; font-size:12px; width:14px; line-height:14px; color:#fff; padding-left:4px; background:url(/img/public/cm_zj_ico.gif) no-repeat 0 0; margin-right:2px; overflow:hidden}
+
+.redColor{color:#ff3300;}
+
+.rulesSpan{display:block;width:40px;height: 40px;
+    background: url('../../Img/Drawing/rulesIcon.png');
+background-size: 40px 40px;}
+.tipsBankOpen{height:70px;font-size:24px;line-height:80px;background: #fff;padding-left:40px;color:#999;}
+

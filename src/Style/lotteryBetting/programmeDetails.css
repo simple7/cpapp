@@ -1,0 +1,182 @@
+.programmeDetails_dlt {
+  /*金额表格*/
+}
+.programmeDetails_dlt .programHead {
+  position: relative;
+  width: 100%;
+  height: 148px;
+  padding: 30px 40px 0;
+  box-sizing: border-box;
+  background: #fff;
+}
+.programmeDetails_dlt .programHead .programHeadCont {
+  height: 118px;
+}
+.programmeDetails_dlt .programHead .programHeadCont .programHeadCont_1 {
+  float: left;
+  width: 100px;
+  height: 100px;
+  margin-right: 30px;
+}
+.programmeDetails_dlt .programHead .programHeadCont .programHeadCont_1 img {
+  display: block;
+  width: 100px;
+  height: 100px;
+  border-radius: 100px;
+}
+.programmeDetails_dlt .programHead .programHeadCont .programHeadCont_2 {
+  float: left;
+}
+.programmeDetails_dlt .programHead .programHeadCont .programHeadCont_2 p.p1 {
+  font-size: 34px;
+  color: #000000;
+  padding: 8px 0;
+}
+.programmeDetails_dlt .programHead .programHeadCont .programHeadCont_2 p.p2 {
+  color: #999999;
+  font-size: 26px;
+}
+.programmeDetails_dlt .moneyTable {
+  width: 100%;
+  background: #fff;
+}
+.programmeDetails_dlt .moneyTable .td1 {
+  width: 170px;
+  height: 80px;
+  font-size: 28px;
+  color: #646464;
+  text-align: center;
+  border-right: 1PX solid #eee;
+  border-top: 1PX solid #eee;
+}
+.programmeDetails_dlt .moneyTable .td2 {
+  color: #191919;
+  height: 80px;
+  font-size: 30px;
+  padding-left: 30px;
+  border-top: 1PX solid #eee;
+}
+.programmeDetails_dlt .moneyTable .td2 .stopZh {
+  display: block;
+  float: right;
+  color: #2395FF;
+  margin-right: 40px;
+}
+.programmeDetails_dlt .titleDiv {
+  position: relative;
+  width: 100%;
+  height: 80px;
+  line-height: 80px;
+  box-sizing: border-box;
+  padding-left: 30px;
+  background: #fff;
+  color: #000000;
+  font-size: 32px;
+  margin-top: 30px;
+}
+.programmeDetails_dlt .Details_dlt {
+  background: #fff;
+}
+.programmeDetails_dlt .Details_dlt div.More {
+  text-align: center;
+  padding: 20px 0;
+  font-size: 28px;
+  color: #2395FF;
+  box-sizing: border-box;
+  line-height: 60px;
+}
+.programmeDetails_dlt .Details_dlt_ul {
+  width: 333px;
+  height: 58px;
+  line-height: 58px;
+  margin: 0 auto;
+  border: 1PX solid #E1DEDE;
+  border-radius: 4px;
+  margin-bottom: 30px;
+}
+.programmeDetails_dlt .Details_dlt_ul li {
+  float: left;
+  height: 58px;
+  line-height: 58px;
+  width: 50%;
+  text-align: center;
+  font-size: 30px;
+  color: #737373;
+}
+.programmeDetails_dlt .Details_dlt_ul li.active {
+  background: #FC5638;
+  color: #FFFFFF;
+}
+.programmeDetails_dlt .Details_dlt_ul li.li_1 {
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+.programmeDetails_dlt .Details_dlt_ul li.li_2 {
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+.programmeDetails_dlt .empty_Details_dlt {
+  height: 404px;
+  width: 100%;
+  margin-top: 20px;
+  border-top: 1PX solid #eee;
+}
+.programmeDetails_dlt .empty_Details_dlt p {
+  color: #CFCFCF;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 70px;
+  padding-top: 210px;
+  background: url('../../Img/empty_box.png') center 0 no-repeat;
+  background-size: 200px auto;
+}
+.programmeDetails_dlt .kaijiang_dlt_box p.pDate {
+  color: #000000;
+  font-size: 28px;
+  padding-top: 20px;
+  padding-left: 20px;
+}
+.programmeDetails_dlt .kaijiang_dlt_box p.pDate span.ccastdate {
+  color: #888888;
+  padding-left: 20px;
+}
+.programmeDetails_dlt .kaijiang_dlt_box .kaijiang_dlt {
+  width: 100%;
+  height: 90px;
+  border-bottom: 1PX solid #eee;
+  text-align: center;
+  padding-top: 20px;
+}
+.programmeDetails_dlt .kaijiang_dlt_box .kaijiang_dlt .div1 {
+  float: left;
+  width: 30%;
+}
+.programmeDetails_dlt .kaijiang_dlt_box .kaijiang_dlt .div2 {
+  float: left;
+  width: 50%;
+}
+.programmeDetails_dlt .kaijiang_dlt_box .kaijiang_dlt .div3 {
+  float: left;
+  width: 20%;
+}
+.programmeDetails_dlt .kaijiang_dlt_box .kaijiang_dlt p.p1 {
+  color: #000000;
+  font-size: 28px;
+}
+.programmeDetails_dlt .kaijiang_dlt_box .kaijiang_dlt p.p1.colorRed {
+  color: #F22F12;
+}
+.programmeDetails_dlt .kaijiang_dlt_box .kaijiang_dlt p.p1 span {
+  display: inline-block;
+  width: 45px;
+  text-align: center;
+  color: #F22F12;
+}
+.programmeDetails_dlt .kaijiang_dlt_box .kaijiang_dlt p.p1 span.blueBall {
+  color: #3596ff;
+}
+.programmeDetails_dlt .kaijiang_dlt_box .kaijiang_dlt p.p2 {
+  color: #999999;
+  font-size: 24px;
+  padding-top: 10px;
+}

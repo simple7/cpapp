@@ -1,0 +1,297 @@
+#mixedPop .maskPop {
+  position: fixed;
+  z-index: 10000;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+}
+#mixedPop .mixedMadol {
+  position: fixed;
+  z-index: 10001;
+  top: 50%;
+  left: 50%;
+  width: 690px;
+  height: auto;
+  margin-left: -345px;
+  margin-top: -578px;
+  background: #F5F4F9;
+  border-radius: 17px;
+}
+.mixedMadolTeam {
+  height: 71px;
+  padding-top: 42px;
+}
+.mixedMadolTeam .li1 {
+  float: left;
+  width: 40%;
+  text-align: right;
+  font-size: 34px;
+  color: #000000;
+}
+.mixedMadolTeam .li2 {
+  float: left;
+  width: 20%;
+  text-align: center;
+  font-size: 36px;
+  color: #000000;
+}
+.mixedMadolTeam .li3 {
+  float: left;
+  width: 40%;
+  text-align: left;
+  color: #000000;
+  font-size: 34px;
+}
+.mixedMadolTeam .li3 .mainSpan {
+  background: #FC5638;
+  border-radius: 4px;
+  color: #FFFFFF;
+  font-size: 11PX;
+  margin-left: 8px;
+  padding: 0 5px;
+  vertical-align: middle;
+}
+.mixedTable {
+  width: 646px;
+  background: #fff;
+  border: 1PX solid #eee;
+  border-left: 0;
+  margin: 0 auto 20px;
+}
+.mixedTable tr {
+  height: 75px;
+}
+.mixedTable tr:last-child .td1 {
+  border-bottom: 0;
+}
+.mixedTable tr:last-child .td2 {
+  border-bottom: 0;
+}
+.mixedTable tr:last-child .td3 {
+  border-bottom: 0;
+}
+.mixedTable tr:last-child .td4 {
+  border-bottom: 0;
+}
+.mixedTable tr:last-child .td5 {
+  border-bottom: 0;
+}
+.mixedTable tr:last-child .td6 {
+  border-bottom: 0;
+}
+.mixedTable td.tdOrange {
+  background: #FB6247;
+}
+.mixedTable td.tdOrange .p1,
+.mixedTable td.tdOrange .p2 {
+  color: #FFFFFF;
+}
+.mixedTable td.tdOrange span {
+  color: #FFFFFF;
+}
+.mixedTable td.tdOrange span.span1 {
+  color: #FFFFFF;
+}
+.mixedTable td.tdOrange span.span3 {
+  color: #FFFFFF;
+}
+.mixedTable td.tdOrange span.span4 {
+  color: #FFFFFF;
+}
+.mixedTable .td1.tdGreen {
+  background: #03B171;
+  color: #FFFFFF;
+}
+.mixedTable .td1.tdRed {
+  background: #DD4A4A;
+  color: #FFFFFF;
+}
+.mixedTable .td1 {
+  width: 40px;
+  color: #838383;
+  font-size: 24px;
+  background: #ECECEC;
+  text-align: center;
+  border-left: 1PX solid #efefef;
+  border-bottom: 1PX solid #efefef;
+}
+.mixedTable .td1.greenBg {
+  background: #03B171;
+  color: #FFFFFF;
+}
+.mixedTable .td1.blueBg {
+  background: #3465A6;
+  color: #FFFFFF;
+}
+.mixedTable .td1.cyanBg {
+  background: #1DBEB2;
+  color: #FFFFFF;
+}
+.mixedTable .td1.yellowBg {
+  background: #FFCA4F;
+  color: #FFFFFF;
+}
+.mixedTable .td1.redBg {
+  background: #DD4A4A;
+  color: #FFFFFF;
+}
+.mixedTable .td2 {
+  width: 200px;
+  border-left: 1PX solid #efefef;
+  border-bottom: 1PX solid #efefef;
+}
+.mixedTable .span1 {
+  display: inline-block;
+  width: 60%;
+  text-align: center;
+  color: #191919;
+  font-size: 26px;
+}
+.mixedTable .span2 {
+  display: inline-block;
+  width: 40%;
+  text-align: left;
+  color: #737373;
+  font-size: 24px;
+}
+.mixedTable .td3 {
+  width: 120px;
+  border-left: 1PX solid #efefef;
+  border-bottom: 1PX solid #efefef;
+  text-align: center;
+}
+.mixedTable .p1 {
+  color: #191919;
+  font-size: 26px;
+  padding-bottom: 3px;
+}
+.mixedTable .p2 {
+  font-size: 24px;
+  color: #737373;
+}
+.mixedTable .td4 {
+  width: 161px;
+  border-left: 1PX solid #efefef;
+  border-bottom: 1PX solid #efefef;
+  text-align: center;
+}
+.mixedTable .td4.emptyTd {
+  background: #F5F4F9;
+}
+.mixedTable .td5 {
+  width: 200px;
+  height: 80px;
+  border-left: 1PX solid #efefef;
+  border-bottom: 1PX solid #efefef;
+  text-align: center;
+}
+.mixedTable .td6 {
+  width: 300px;
+  height: 40px;
+  border-left: 1PX solid #efefef;
+  border-bottom: 1PX solid #efefef;
+  text-align: center;
+}
+.mixedTable .span3 {
+  color: #191919;
+  font-size: 26px;
+}
+.mixedTable .span4 {
+  color: #737373;
+  font-size: 24px;
+}
+.mixedTable .spanGreen {
+  color: #03B171;
+  font-size: 26px;
+}
+.mixedTable .spanRed {
+  color: #DD4A4A;
+  font-size: 26px;
+}
+.mixedPopBtn {
+  width: 610px;
+  margin: 40px auto;
+}
+.mixedPopBtn .btn1 {
+  float: left;
+  display: block;
+  width: 276px;
+  height: 68px;
+  text-align: center;
+  line-height: 68px;
+  background: #FFFFFF;
+  border: 1PX solid #e8e8ea;
+  border-radius: 4px;
+  color: #999999;
+  font-size: 30px;
+}
+.mixedPopBtn .btn2 {
+  display: block;
+  float: right;
+  width: 278px;
+  height: 70px;
+  background: #FB6247;
+  text-align: center;
+  line-height: 70px;
+  border-radius: 4px;
+  color: #FFFFFF;
+  font-size: 30px;
+}
+/*篮球 混投*/
+.mixedMadolBasketball {
+  position: fixed;
+  z-index: 10001;
+  top: 50%;
+  left: 50%;
+  width: 690px;
+  height: 614px;
+  margin-left: -345px;
+  margin-top: -307px;
+  background: #F5F4F9;
+  border-radius: 17px;
+}
+/*篮球混投方案*/
+.mixedMadolBasketball_program {
+  position: fixed;
+  z-index: 10001;
+  top: 50%;
+  left: 50%;
+  width: 690px;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  background: #F5F4F9;
+  border-radius: 17px;
+}
+/*---------------北京单场----*/
+.mixedMadolSingle {
+  position: fixed;
+  z-index: 10001;
+  top: 50%;
+  left: 50%;
+  width: 690px;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  background: #F5F4F9;
+  border-radius: 17px;
+}
+/*半全场弹框*/
+.mixedMadolBan {
+  position: fixed;
+  z-index: 10001;
+  top: 50%;
+  left: 50%;
+  width: 690px;
+  height: 420px;
+  margin-left: -345px;
+  margin-top: -210px;
+  background: #F5F4F9;
+  border-radius: 17px;
+}

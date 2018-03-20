@@ -1,0 +1,248 @@
+.xlsj {
+  width: 100%;
+  font-size: 28px;
+  background: #fff;
+  box-sizing: border-box;
+  padding: 20px 20px 30px;
+}
+.xlsj.h_all {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+}
+.xlsj div.titleDiv {
+  line-height: 40px;
+  font-size: 30px;
+  margin-top: 10px;
+  font-weight: bold;
+}
+.xlsj p {
+  padding: 0;
+  font-size: 28px;
+  color: #777777;
+  margin: 10px auto 30px;
+  line-height: 40px;
+}
+.xl_ta {
+  width: 100%;
+  font-size: 26px;
+  border-collapse: collapse;
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+.xl_ta tr td {
+  border: 1PX solid #dedede;
+  text-align: center;
+  line-height: 30px;
+  padding: 15px 0;
+}
+.xl_sj_a {
+  display: inline-block;
+  line-height: 24px;
+  padding: 0 6px;
+  background: red;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 3px;
+}
+.it-ball b {
+  font-style: normal;
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  margin: 0 0 0 10px;
+  vertical-align: top;
+  font-weight: normal;
+  background-color: #f24f4f;
+  border-radius: 18px;
+}
+.it-ball b.it-ball-blue {
+  background-color: #3f8af0;
+}
+.xl_ta tr td .it-ball {
+  margin-top: 25px;
+}
+.xl_ta tr td .it-ball-line {
+  padding: 6px 0;
+}
+.it-ball em {
+  font-style: normal;
+  display: inline-block;
+  width: 28px;
+  height: 28px;
+  margin: 0 4px;
+  vertical-align: top;
+  background-color: #f24f4f;
+  border-radius: 28px;
+}
+.it-ball em.it-ball-blue {
+  background-color: #3f8af0;
+}
+b.em {
+  color: #f24f4f;
+  font-weight: normal;
+}
+b.em1 {
+  color: #3f8af0;
+  font-weight: normal;
+}
+.it-compare {
+  position: relative;
+}
+.itc-line {
+  position: relative;
+  padding-left: 60px;
+  text-align: left;
+  margin-left: 12px;
+}
+.it-tip {
+  margin-top: 4px;
+  padding: 0 12px;
+  color: #898989;
+  font-size: 30px;
+  text-align: left;
+  line-height: 40px;
+}
+.itc-caption {
+  position: absolute;
+  left: 0;
+  top: 0;
+  font-size: 26px;
+  line-height: 40px;
+}
+.it-arrow {
+  position: absolute;
+  left: 18px;
+  top: 82px;
+  padding-left: 60px;
+  line-height: 12px;
+}
+.it-arrow_1 {
+  position: absolute;
+  left: 18px;
+  top: 35px;
+  padding-left: 58px;
+  line-height: 12px;
+}
+.it-arrow span,
+.it-arrow_1 span {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  margin: 0 13px 0 14px;
+  background: url('../../Img/it-arrow.png');
+  background-size: auto 100%;
+  vertical-align: top;
+}
+.it-state {
+  padding: 0 6px;
+  font-size: 26px;
+  text-align: left;
+  line-height: 60px;
+  border-bottom: 1PX solid #ddd;
+}
+.it-compare-number {
+  padding-top: 10px;
+}
+.it-compare-number .it-ball b {
+  width: 44px;
+  height: 44px;
+  line-height: 44px;
+  color: #fff;
+  font-size: 24px;
+  text-align: center;
+  -webkit-border-radius: 44px;
+  border-radius: 44px;
+  vertical-align: top;
+}
+.it-col1 {
+  width: 20%;
+}
+.it-col2 {
+  width: 60%;
+}
+.it-col3 {
+  width: 20%;
+}
+.it-compare-number .it-arrow span {
+  margin: 0 19px;
+}
+.it-rect115-z3 {
+  left: 75px;
+  width: 160px;
+}
+.it-rect {
+  position: absolute;
+  height: 120px;
+  border: 1PX solid #f24f4f;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  top: 28px;
+}
+.it-rect115-z2 {
+  left: 75px;
+  width: 108px;
+}
+.it-ball .it-ball-gray {
+  background-color: #ddd;
+}
+.it-example {
+  position: relative;
+  top: 15px;
+}
+.it-example li {
+  border-top: 1PX solid #ddd;
+  font-size: 26px;
+  line-height: 50px;
+}
+.qcfd {
+  zoom: 1;
+}
+.ite-col1 {
+  width: 66%;
+  margin-right: -1PX;
+  border-right: 1PX solid #ddd;
+  box-sizing: border-box;
+}
+.ite-col2 {
+  width: 33%;
+}
+.ite-col1,
+.ite-col2 {
+  float: left;
+}
+.qcfd:after {
+  display: block;
+  clear: both;
+  height: 0;
+  visibility: hidden;
+  font-size: 0;
+  line-height: 0;
+  content: ' ';
+}
+.ite-col1 b {
+  margin: 0 10px;
+  font-weight: normal;
+}
+.qxcDiv .it-state {
+  padding: 0 6px;
+  font-size: 26px;
+  text-align: left;
+  line-height: 40px;
+  border-bottom: 0;
+}
+.qxcDiv .em {
+  color: #f24f4f;
+}
+.it-info {
+  position: relative;
+  top: -13px;
+}
+.fc3DTable .it-info {
+  position: relative;
+  top: 0;
+}
+.fc3DTable .it-info.it-info_1 {
+  top: -13px;
+}

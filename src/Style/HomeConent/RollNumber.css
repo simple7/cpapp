@@ -1,0 +1,80 @@
+.inText {
+    background: #fff;
+    border-top: 1px solid #e2e2e2;
+    border-bottom: 1px solid #e2e2e2;
+    padding: 28px 30px 28px 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.inms {
+    padding-bottom: 8px;
+}
+.clearfix {
+    overflow: hidden;
+    zoom: 1;
+}
+.inms span {
+    float: left;
+    color: #db150b;
+    font-size:18px;
+}
+.inms em {
+    float: right;
+    color: #999;
+    font-size: 18px;
+    text-align: right;
+    width: auto;
+}
+.kjball em {
+    float: left;
+    width: 50px;
+    line-height: 50px;
+    text-align: center;
+    color: #fff;
+    background: #e72b25;
+    font-size: 18px;
+    margin: 0 5px 0 0;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius:50px;
+}
+.kjball a {
+    float: right;
+    width: 80px;
+    line-height: 50px;
+    text-align: center;
+    background: #e72b25;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+}
+address, caption, cite, code, dfn, em, var, i, b {
+    font-style: normal;
+    font-weight: 500;
+}
+i, cite, em {
+    font-style: normal;
+}
+/*.number_rotate{*/
+    /*transform: rotate(360deg);*/
+    /*transition:transform 0.5s;*/
+/*}*/
+.rotate_jx{-webkit-animation-name:num;-webkit-animation-duration:.2s;-webkit-animation-timing-function:linear;-webkit-animation-iteration-count:infinite;-moz-animation-name:num;-moz-animation-duration:.2s;-moz-animation-timing-function:linear;-moz-animation-iteration-count:infinite;-o-animation-name:num;-o-animation-duration:.2s;-o-animation-timing-function:linear;-o-animation-iteration-count:infinite;-ms-animation-name:num;-ms-animation-duration:.2s;-ms-animation-timing-function:linear;-ms-animation-iteration-count:infinite}
+@-webkit-keyframes num{0%{-webkit-transform:rotate(0deg)}
+    50%{-webkit-transform:rotate(180deg)}
+    100%{-webkit-transform:rotate(360deg)}
+}
+@-moz-keyframes num{0%{-moz-transform:rotate(0deg)}
+    50%{-moz-transform:rotate(180deg)}
+    100%{-moz-transform:rotate(360deg)}
+}
+@-o-keyframes num{0%{-o-transform:rotate(0deg)}
+    50%{-o-transform:rotate(180deg)}
+    100%{-o-transform:rotate(360deg)}
+}
+@-ms-keyframes num{0%{-ms-transform:rotate(0deg)}
+    50%{-ms-transform:rotate(180deg)}
+    100%{-ms-transform:rotate(360deg)}
+}

@@ -1,0 +1,22 @@
+/**/
+#DetailsTequan .my-list{border-top:30px solid #F4F5F9;}
+#DetailsTequan .am-list-body{border-top:none;}
+#DetailsTequan .am-list-item{padding-left:0;margin-left: 30px;min-height:160px;}
+#DetailsTequan .am-list-item img{width:116px;height:116px;}
+#DetailsTequan .am-list-item .am-list-thumb:first-child{margin-right: 20px;}
+#DetailsTequan .am-list-item .am-list-line .am-list-content{color: #191919;font-size: 30px;}
+
+
+#DetailsTequan .am-list-body:after,.DetailsTequan .am-list-body div:not(:last-child) .am-list-line:after{border-bottom:none;}
+
+#DetailsTequan .am-list-item:not(:last-child){border-bottom: 3px solid #eee;}
+
+#DetailsTequan .am-list-item .am-list-line-multiple{padding:0;min-height:130px;}
+
+#DetailsTequan .tequanItem1.am-list-item .am-list-line .am-list-content{color: #191919;font-size: 30px;}
+#DetailsTequan .tequanItem2.am-list-item .am-list-line .am-list-content{color: #525252;font-size: 29px;}
+
+#DetailsTequan .tequanItem1.am-list-item .am-list-line .am-list-brief{color: #737373;font-size: 26px;margin-top:2px;}
+#DetailsTequan .tequanItem2.am-list-item .am-list-line .am-list-brief{margin-top:4px;color: #737373;font-size: 24px;}
+
+#DetailsTequan .am-list-body:after,#DetailsTequan .am-list-body div:not(:last-child) .am-list-line:after{border-bottom:#eee;}

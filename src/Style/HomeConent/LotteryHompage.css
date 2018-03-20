@@ -1,0 +1,128 @@
+.lottery_content {
+  background: #fff;
+  margin-bottom: 20px;
+}
+
+.noMargin {
+  margin-bottom: 0;
+}
+
+.lottery_content .touzhuDiv {
+  width: 100%;
+  display: block;
+  background: #fff;
+  position: relative;
+  height: 650px;
+}
+
+
+.lottery_content .touzhuDiv .touzhuC {
+  float: left;
+  width: 33%;
+  height: 180px;
+  text-align: center;
+  color: #191919;
+  font-size: 30px;
+  padding-top: 30px;
+}
+
+.lottery_content .touzhuDiv .touzhuC img {
+  display: inline-block;
+  width: 120px;
+  height: 120px;
+  margin-bottom: 10px;
+}
+
+.MoreLottery {
+  display: none;
+}
+
+.Lottery_childrenNone {
+  height: 0;
+  display: none;
+}
+
+.Lottery_children {
+  display: flex;
+  flex-direction: row;
+  width: 300%;
+  margin-left: -100%;
+  justify-content: space-around;
+  animation: ZhanKai 2s;
+}
+
+@keyframes ZhanKai {
+  from {
+    height: 0;
+  }
+  to {
+    height: 100%;
+  }
+}
+
+.indexMore {
+  position: absolute;
+  background: #fff;
+  width: 100%;
+  top: 0;
+  height: 100%;
+  z-index: 999;
+}
+
+/*-----大奖墙*/
+#home .adDiv1 {
+  height: 344px;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 45px;
+  background: #fff;
+}
+
+#home .adDiv1 .djq {
+  height: 344px;
+  box-sizing: border-box;
+  border-right: 1PX solid #f2f2f2;
+}
+
+#home .adDiv1 .zjgy,
+#home .adDiv1 .sszt {
+  height: 172px;
+  text-align: left;
+  box-sizing: border-box;
+  padding-top: 45px;
+  padding-left: 180px;
+}
+
+#home .adDiv1 div {
+  width: 50%;
+  float: left
+}
+
+#home .adDiv1 .djq img {
+  display: block;
+  width: 163px;
+  height: 174px;
+  margin: 20px auto 41px;
+}
+
+#home .adDiv1 .zjgy {
+  border-bottom: 1PX solid #f5f5f5;
+  background: url('../../Img/zjgl.png') 30px center no-repeat;
+  background-size: 108px 108px;
+}
+
+#home .adDiv1 .sszt {
+  background: url('../../Img/sszt.png') 30px center no-repeat;
+  background-size: 108px 108px;
+}
+
+#home .adDiv1 p.p1 {
+  font-size: 34px;
+  color: #000000;
+  margin-bottom: 8px;
+}
+
+#home .adDiv1 p.p2 {
+  color: #999999;
+  font-size: 26px;
+}

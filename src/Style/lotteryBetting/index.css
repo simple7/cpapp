@@ -1,0 +1,1168 @@
+#lotteryBetting {
+  height: 100%;
+  background: #fff;
+}
+#lotteryBetting .dateDiv {
+  width: 100%;
+  height: 64px;
+  background: url('../../Img/lotteryBetting/dateIcon2.png') 93% center no-repeat #F5F4F9;
+  background-size: 20px 20px;
+  color: #737373;
+  font-size: 26px;
+  padding-left: 30px;
+  box-sizing: border-box;
+  line-height: 64px;
+}
+#lotteryBetting .dateDiv.down {
+  background: url('../../Img/lotteryBetting/dateIcon1.png') 93% center no-repeat #F5F4F9;
+  background-size: 20px 20px;
+}
+#lotteryBetting .dateDiv.noPic {
+  background: #F5F4F9;
+}
+#lotteryBetting .bettingBoxWrap {
+  border-bottom: 1PX solid #ececec;
+}
+#lotteryBetting .bfBlack {
+  color: #191919 !important;
+}
+#lotteryBetting .bettingLabel {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+#lotteryBetting .bettingLabel span {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  font-size: 26px;
+  color: #fff;
+}
+#lotteryBetting .bettingLabel label {
+  display: block;
+}
+#lotteryBetting .bettingLabel label.label_1 {
+  width: 0;
+  height: 0;
+  border-width: 30px;
+  border-style: solid;
+  border-color: #03B171 transparent transparent #03B171;
+}
+#lotteryBetting .bettingLabel label.label_2 {
+  width: 0;
+  height: 0;
+  border-width: 30px;
+  border-style: solid;
+  border-color: #DD4A4A transparent transparent #DD4A4A;
+}
+#lotteryBetting .bettingBox {
+  position: relative;
+  width: 100%;
+  height: 270px;
+  background: #fff;
+  padding: 37px 0;
+  box-sizing: border-box;
+}
+#lotteryBetting .bettingBox .bettingBox_fl {
+  height: 100px;
+  width: 19%;
+  padding-top: 62px;
+  color: #999999;
+  font-size: 22px;
+  text-align: center;
+  line-height: 32px;
+}
+#lotteryBetting .bettingBox .bettingBox_fl p.arrow {
+  background: url('../../Img/lotteryBetting/arrowIcon1.png') center bottom no-repeat;
+  background-size: 25px 25px;
+  height: 36px;
+}
+#lotteryBetting .bettingBox .bettingBox_fl p.arrow.down {
+  background: url('../../Img/lotteryBetting/arrowIcon2.png') center bottom no-repeat;
+  background-size: 25px 25px;
+  height: 36px;
+}
+#lotteryBetting .bettingBox .bettingBox_fr {
+  position: absolute;
+  left: 145px;
+  top: 0;
+  width: 81%;
+}
+#lotteryBetting .bettingBox .bettingBox_fr .bettingBox_fr_title {
+  width: 100%;
+  height: 54px;
+  padding-top: 36px;
+}
+#lotteryBetting .bettingBox .bettingBox_fr .bettingBox_fr_title p {
+  width: 34px;
+  text-align: center;
+  float: left;
+  color: #999999;
+  font-size: 20px;
+}
+#lotteryBetting .bettingBox .bettingBox_fr .bettingBox_fr_title ul {
+  position: relative;
+  overflow: hidden;
+  height: 54px;
+  color: #191919;
+  font-size: 30px;
+  line-height: 54px;
+}
+#lotteryBetting .bettingBox .bettingBox_fr .bettingBox_fr_title ul li {
+  float: left;
+}
+#lotteryBetting .bettingBox .bettingBox_fr .bettingBox_fr_title ul li.li2 {
+  width: 15%;
+  text-align: center;
+}
+#lotteryBetting .bettingBox .bettingBox_fr .bettingBox_fr_title ul li.li1 {
+  width: 40%;
+  text-align: right;
+}
+#lotteryBetting .bettingBox .bettingBox_fr .bettingBox_fr_title ul li.li3 {
+  width: 40%;
+  text-align: left;
+}
+#lotteryBetting .bettingBox .bettingBox_fr table {
+  width: 97%;
+  border: 1PX solid #eee;
+  box-sizing: border-box;
+}
+#lotteryBetting .bettingBox .bettingBox_fr table.table1 {
+  width: 92%;
+}
+#lotteryBetting .bettingBox .bettingBox_fr table tr:last-child td {
+  border-bottom: 0;
+}
+#lotteryBetting .bettingBox .bettingBox_fr table .td1 {
+  width: 5%;
+  background: #F5F4F9;
+  color: #999999;
+  font-size: 20px;
+  height: 68px;
+  border-bottom: 1PX solid #eee;
+  text-align: center;
+}
+#lotteryBetting .bettingBox .bettingBox_fr table .td1.tdGreen {
+  background: #03B171;
+  color: #FFFFFF;
+}
+#lotteryBetting .bettingBox .bettingBox_fr table .td1.tdRed {
+  background: #DD4A4A;
+  color: #FFFFFF;
+}
+#lotteryBetting .bettingBox .bettingBox_fr table .td1.tdBlue {
+  background: #008CD2;
+  color: #FFFFFF;
+}
+#lotteryBetting .bettingBox .bettingBox_fr table .td1.tdYellow {
+  background: #FFCA4F;
+  color: #FFFFFF;
+}
+#lotteryBetting .bettingBox .bettingBox_fr table .td2 {
+  width: 28%;
+  color: #525252;
+  font-size: 26px;
+  border-left: 1PX solid #eee;
+  box-sizing: border-box;
+  height: 68px;
+  border-bottom: 1PX solid #eee;
+  padding: 0 2%;
+  text-align: center;
+}
+#lotteryBetting .bettingBox .bettingBox_fr table .td2 .grayColor {
+  width: 100%;
+  color: #999999;
+  text-align: center;
+}
+#lotteryBetting .bettingBox .bettingBox_fr table .td2.tdOrange {
+  background: #FB6247;
+}
+#lotteryBetting .bettingBox .bettingBox_fr table .td2.tdOrange span {
+  color: #FFFFFF;
+  text-align: center;
+}
+#lotteryBetting .bettingBox .bettingBox_fr table .td2.tdOrange span.span1 {
+  color: #FFFFFF;
+  margin-left: 10px;
+}
+#lotteryBetting .bettingBox .bettingBox_fr table .td2 span {
+  display: inline-block;
+  text-align: left;
+}
+#lotteryBetting .bettingBox .bettingBox_fr table .td2 span.span1 {
+  color: #737373;
+  text-align: right;
+}
+#lotteryBetting .bettingBox .bettingBox_fr table .td3 {
+  width: 11%;
+  color: #666666;
+  font-size: 22px;
+  border-left: 1PX solid #eee;
+  box-sizing: border-box;
+  height: 68px;
+  text-align: center;
+}
+#lotteryBetting .bettingBox .bettingBox_fr table .td3.tdPink {
+  background: rgba(251, 98, 71, 0.12);
+}
+#lotteryBetting .bettingBox .bettingBox_fr table .td3 span {
+  color: #DD4A4A;
+}
+#lotteryBetting .bettingBox .bettingBox_fr table .td4 {
+  width: 28%;
+  color: #525252;
+  font-size: 26px;
+  border-left: 1PX solid #eee;
+  box-sizing: border-box;
+  height: 68px;
+  border-bottom: 1PX solid #eee;
+  padding: 0 3%;
+}
+#lotteryBetting .bettingBox .bettingBox_fr table .td4 .grayColor {
+  width: 100%;
+  color: #999999;
+  text-align: center;
+}
+#lotteryBetting .bettingBox .bettingBox_fr table .td4.tdOrange {
+  background: #FB6247;
+}
+#lotteryBetting .bettingBox .bettingBox_fr table .td4.tdOrange span {
+  color: #FFFFFF;
+}
+#lotteryBetting .bettingBox .bettingBox_fr table .td4.tdOrange span.span1 {
+  color: #FFFFFF;
+}
+#lotteryBetting .bettingBox .bettingBox_fr table .td4 span {
+  display: inline-block;
+  width: 50%;
+}
+#lotteryBetting .bettingBox .bettingBox_fr table .td4 span.span1 {
+  text-align: right;
+  color: #737373;
+}
+#lotteryBetting .bettingBox .bettingBox_fr table .td5 {
+  height: 88px;
+}
+#lotteryBetting .bettingBoxDown {
+  height: 0;
+  overflow: hidden;
+  background: #fff;
+  -webkit-transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+#lotteryBetting .bettingBoxDown.active {
+  height: 318px;
+  background: #383A35;
+}
+#lotteryBetting .bettingBoxDown.lqBoxDown.active {
+  height: 153px;
+  background: #383A35;
+}
+#lotteryBetting .bettingBoxDown table {
+  width: 100%;
+  font-size: 22px;
+  text-align: center;
+}
+#lotteryBetting .bettingBoxDown table .td1 {
+  width: 22%;
+  color: #DDB14B;
+  height: 51px;
+  border-bottom: 1PX solid rgba(24, 24, 24, 0.34);
+  box-sizing: border-box;
+}
+#lotteryBetting .bettingBoxDown table .td1.lqTd1 {
+  width: 20%;
+}
+#lotteryBetting .bettingBoxDown table .td2 {
+  width: 19.5%;
+  color: #FFFFFF;
+  height: 51px;
+  border-bottom: 1PX solid rgba(24, 24, 24, 0.34);
+  box-sizing: border-box;
+  border-left: 1PX solid rgba(24, 24, 24, 0.34);
+}
+#lotteryBetting .bettingBoxDown table .td2.lqTd2 {
+  width: 80%;
+}
+#lotteryBetting .bettingBoxDown table .td2 .colorRed {
+  color: #DD4A4A;
+}
+#lotteryBetting .bettingBoxDown table .td2 .colorBlue {
+  color: #3465a6;
+}
+#lotteryBetting .bettingBoxDown table .td2 .colorGreen {
+  color: #02b171;
+}
+#lotteryBetting .bettingBoxDown table .td2 .fontS24 {
+  font-size: 24px;
+}
+#lotteryBetting .bettingBoxDown table .td2 div {
+  display: inline-block;
+  width: 50%;
+}
+#lotteryBetting .bettingBoxDown table .td2 .div2 {
+  width: 33%;
+}
+#lotteryBetting .bettingBoxDown .analysisDiv {
+  height: 63px;
+  line-height: 65px;
+  background: #494949;
+  color: #FFFFFF;
+  font-size: 24px;
+  text-align: center;
+}
+#lotteryBetting .bettingBoxDown .analysisDiv .icon {
+  display: inline-block;
+  width: 26px;
+  height: 63px;
+  margin-right: 10px;
+  vertical-align: top;
+  background: url('../../Img/lotteryBetting/zuqiuIcon.png') center center no-repeat;
+  background-size: 26px auto;
+}
+#lotteryBetting .bettingBoxDown .analysisDiv .icon_lanQiu {
+  display: inline-block;
+  width: 26px;
+  height: 63px;
+  vertical-align: top;
+  margin-right: 10px;
+  background: url('../../Img/lotteryBetting/lanqiuIcon.png') center center no-repeat;
+  background-size: 26px auto;
+}
+#lotteryBetting .bettingBoxDown .analysisDiv .arrow {
+  display: inline-block;
+  width: 20px;
+  height: 63px;
+  margin-left: 5px;
+  vertical-align: middle;
+  background: url('../../Img/lotteryBetting/arrowIcon3.png') center center no-repeat;
+  background-size: 20px auto;
+}
+#lotteryBetting .bettingFooter {
+  z-index: 9999;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 98px;
+  background: #F9F9F9;
+  box-shadow: 0 2px 7px 0 rgba(152, 143, 143, 0.5);
+}
+#lotteryBetting .bettingFooter .bettingFooterInfo {
+  position: relative;
+  top: 22px;
+  left: 0;
+  height: 60px;
+  overflow: hidden;
+}
+#lotteryBetting .bettingFooter .bettingFooterInfo .emptyClear {
+  float: left;
+  width: 124px;
+  height: 54px;
+  border-right: 1PX solid #DEDDDD;
+  margin-right: 40px;
+  background: url('../../Img/lotteryBetting/clearIcon.png') center center no-repeat;
+  background-size: 34px auto;
+}
+#lotteryBetting .bettingFooter .bettingFooterInfo .choicePopover {
+  float: left;
+  width: 124px;
+  height: 54px;
+  border-right: 1PX solid #DEDDDD;
+  margin-right: 40px;
+  color: #FB6247;
+  font-size: 32px;
+  text-align: center;
+  line-height: 54px;
+}
+#lotteryBetting .bettingFooter .bettingFooterInfo .footerInfo {
+  float: left;
+}
+#lotteryBetting .bettingFooter .bettingFooterInfo .footerInfo p.p1 {
+  color: #000000;
+  font-size: 28px;
+  padding-bottom: 3px;
+}
+#lotteryBetting .bettingFooter .bettingFooterInfo .footerInfo p.p1 span {
+  color: #DD4A4A;
+}
+#lotteryBetting .bettingFooter .bettingFooterInfo .footerInfo p.p2 {
+  color: #999999;
+  font-size: 22px;
+}
+#lotteryBetting .bettingFooter .bettingFooterInfo .footerInfo p.p3 {
+  color: #000000;
+  font-size: 32px;
+  line-height: 54px;
+}
+#lotteryBetting .bettingFooter .bettingFooterInfo .footerInfo p.p3 span {
+  color: #DD4A4A;
+}
+#lotteryBetting .bettingFooter .nextBtn {
+  position: absolute;
+  top: 15px;
+  right: 30px;
+  display: block;
+  width: 145px;
+  height: 70px;
+  background: #FB6247;
+  border-radius: 4px;
+  color: #FFFFFF;
+  font-size: 36px;
+  text-align: center;
+  line-height: 70px;
+}
+/*胜平负*/
+.mar_b98 {
+  margin-bottom: 98px;
+}
+#lotteryBetting .shengPingBox {
+  position: relative;
+  width: 100%;
+  height: 195px;
+  background: #fff;
+  padding: 37px 0;
+  box-sizing: border-box;
+}
+#lotteryBetting .shengPingBox .bettingBox_fl {
+  float: left;
+  height: 115px;
+  width: 19%;
+  color: #999999;
+  font-size: 22px;
+  text-align: center;
+  line-height: 32px;
+}
+#lotteryBetting .shengPingBox .bettingBox_fl p.arrow {
+  background: url('../../Img/lotteryBetting/arrowIcon1.png') center bottom no-repeat;
+  background-size: 25px 25px;
+  height: 36px;
+}
+#lotteryBetting .shengPingBox .bettingBox_fl p.arrow.down {
+  background: url('../../Img/lotteryBetting/arrowIcon2.png') center bottom no-repeat;
+  background-size: 25px 25px;
+  height: 36px;
+}
+#lotteryBetting .shengPingBox .bettingBox_fr {
+  float: left;
+  width: 81%;
+  height: 115px;
+}
+#lotteryBetting .shengPingBox .bettingBox_fr table {
+  width: 95%;
+  border: 1PX solid #e0e0e0;
+  box-sizing: border-box;
+  height: 115px;
+  border-collapse: collapse;
+}
+#lotteryBetting .shengPingBox .bettingBox_fr table.choose21Table {
+  width: 91%;
+}
+#lotteryBetting .shengPingBox .bettingBox_fr table tr:last-child td {
+  border-bottom: 0;
+}
+#lotteryBetting .shengPingBox .bettingBox_fr table td {
+  height: 113px;
+  text-align: center;
+  box-sizing: border-box;
+}
+#lotteryBetting .shengPingBox .bettingBox_fr table td.border_lr {
+  border-left: 1PX solid #efefef;
+  border-right: 1PX solid #efefef;
+}
+#lotteryBetting .shengPingBox .bettingBox_fr table td.border_lr2 {
+  border-right: 1PX solid #efefef;
+}
+#lotteryBetting .shengPingBox .bettingBox_fr table td.redBg {
+  background: #FC5638;
+}
+#lotteryBetting .shengPingBox .bettingBox_fr table td.redBg p.p1 {
+  color: #fff;
+}
+#lotteryBetting .shengPingBox .bettingBox_fr table td.redBg p.p2 {
+  color: #fff;
+}
+#lotteryBetting .shengPingBox .bettingBox_fr table td.redBg .mainSpan {
+  border: 1px solid #fff;
+  box-sizing: border-box;
+}
+#lotteryBetting .shengPingBox .bettingBox_fr table td p.p1 {
+  color: #212121;
+  font-size: 30px;
+  padding-bottom: 5px;
+}
+#lotteryBetting .shengPingBox .bettingBox_fr table td p.p2 {
+  font-size: 24px;
+  color: #737373;
+}
+#lotteryBetting .shengPingBox .bettingBox_fr table .td2 {
+  width: 10%;
+}
+#lotteryBetting .shengPingBox .bettingBox_fr table .td1 {
+  width: 20%;
+}
+#lotteryBetting .shengPingBox .bettingBox_fr table .td3 {
+  width: 5%;
+  font-size: 20px;
+}
+#lotteryBetting .shengPingBox .bettingBox_fr table .td3.tdGreen {
+  background: #03B171;
+  color: #FFFFFF;
+}
+#lotteryBetting .shengPingBox .bettingBox_fr table .td3.tdRed {
+  background: #DD4A4A;
+  color: #FFFFFF;
+}
+#lotteryBetting .shengPingBox .bettingBox_fr table .td3.tdGray {
+  background: #F5F4F9;
+  color: #999;
+}
+#lotteryBetting .shengPingBox .bettingBox_fr table .td4 {
+  width: 37.5%;
+}
+span.greenSpan {
+  color: #03B171;
+}
+span.redSpan {
+  color: #DD4A4A;
+}
+.redBg span.greenSpan {
+  color: #FFF;
+}
+.redBg span.redSpan {
+  color: #FFF;
+}
+.mainSpan {
+  background: #FC5638;
+  border-radius: 4px;
+  color: #FFFFFF;
+  font-size: 11PX;
+  margin-left: 8px;
+  padding: 0px 3px 3px 3px;
+  vertical-align: top;
+  box-sizing: border-box;
+  border: 1px solid #FC5638;
+}
+/*竞彩篮球*/
+.bettingBoxBasketball {
+  position: relative;
+  width: 100%;
+  height: 500px;
+  background: #fff;
+  padding: 37px 0;
+  box-sizing: border-box;
+}
+.bettingBoxBasketball .bettingBox_fl {
+  height: 100px;
+  width: 19%;
+  padding-top: 160px;
+  color: #999999;
+  font-size: 22px;
+  text-align: center;
+  line-height: 32px;
+}
+.bettingBoxBasketball .bettingBox_fl p.arrow {
+  background: url('../../Img/lotteryBetting/arrowIcon1.png') center bottom no-repeat;
+  background-size: 25px 25px;
+  height: 36px;
+}
+.bettingBoxBasketball .bettingBox_fl p.arrow.down {
+  background: url('../../Img/lotteryBetting/arrowIcon2.png') center bottom no-repeat;
+  background-size: 25px 25px;
+  height: 36px;
+}
+.bettingBoxBasketball .bettingBox_fr {
+  position: absolute;
+  left: 145px;
+  top: 0;
+  width: 81%;
+}
+.bettingBoxBasketball .bettingBox_fr .bettingBox_fr_title {
+  width: 100%;
+  height: 54px;
+  padding-top: 36px;
+}
+.bettingBoxBasketball .bettingBox_fr .bettingBox_fr_title ul {
+  position: relative;
+  overflow: hidden;
+  height: 54px;
+  color: #191919;
+  font-size: 30px;
+  line-height: 54px;
+}
+.bettingBoxBasketball .bettingBox_fr .bettingBox_fr_title ul li {
+  float: left;
+}
+.bettingBoxBasketball .bettingBox_fr .bettingBox_fr_title ul li.li2 {
+  width: 15%;
+  text-align: center;
+}
+.bettingBoxBasketball .bettingBox_fr .bettingBox_fr_title ul li.li1 {
+  width: 40%;
+  text-align: right;
+}
+.bettingBoxBasketball .bettingBox_fr .bettingBox_fr_title ul li.li3 {
+  width: 40%;
+  text-align: left;
+}
+.bettingBoxBasketball .bettingBox_fr table {
+  width: 97%;
+  border: 1PX solid #eee;
+  box-sizing: border-box;
+  table-layout: fixed;
+}
+.bettingBoxBasketball .bettingBox_fr table.table1 {
+  width: 92%;
+}
+.bettingBoxBasketball .bettingBox_fr table tr:last-child td {
+  border-bottom: 0;
+}
+.bettingBoxBasketball .bettingBox_fr table .td1 {
+  width: 6%;
+  background: #F5F4F9;
+  color: #999999;
+  font-size: 11PX;
+  height: 88px;
+  border-bottom: 1PX solid #eee;
+  text-align: center;
+}
+.bettingBoxBasketball .bettingBox_fr table .td1.tdGreen {
+  background: #03B171;
+  color: #FFFFFF;
+}
+.bettingBoxBasketball .bettingBox_fr table .td1.tdRed {
+  background: #DD4A4A;
+  color: #FFFFFF;
+}
+.bettingBoxBasketball .bettingBox_fr table .td1.tdBlue {
+  background: #008CD2;
+  color: #FFFFFF;
+}
+.bettingBoxBasketball .bettingBox_fr table .td1.tdYellow {
+  background: #FFCA4F;
+  color: #FFFFFF;
+}
+.bettingBoxBasketball .bettingBox_fr table .td5 {
+  width: 47%;
+  height: 92px;
+  border-bottom: 1PX solid #eee;
+  border-left: 1PX solid #eee;
+  text-align: center;
+  color: #000000;
+  font-size: 24px;
+  box-sizing: border-box;
+}
+.bettingBoxBasketball .bettingBox_fr table .td5.tdOrange {
+  background: #FB6247;
+  color: #fff;
+}
+.bettingBoxBasketball .bettingBox_fr table .td5.h_66 {
+  height: 88px;
+}
+.bettingBoxBasketball .bettingBox_fr table .td5.tdOrange {
+  background: #FB6247;
+}
+.bettingBoxBasketball .bettingBox_fr table .td5.tdOrange p {
+  color: #FFFFFF;
+}
+.bettingBoxBasketball .bettingBox_fr table .td5.tdOrange p.p3 .redColor {
+  color: #FFFFFF;
+}
+.bettingBoxBasketball .bettingBox_fr table .td5.tdOrange p.p3 .greenColor {
+  color: #FFFFFF;
+}
+.bettingBoxBasketball .bettingBox_fr table .td5.tdOrange p.p4 {
+  color: #FFFFFF;
+}
+.bettingBoxBasketball .bettingBox_fr table .td5 p.p3 {
+  line-height: 32px;
+}
+.bettingBoxBasketball .bettingBox_fr table .td5 p.p3 .greenColor {
+  color: #03B171;
+}
+.bettingBoxBasketball .bettingBox_fr table .td5 p.p3 .redColor {
+  color: #DD4A4A;
+}
+.bettingBoxBasketball .bettingBox_fr table .td5 p.p4 {
+  color: #737373;
+  line-height: 32px;
+}
+.bettingBoxBasketball .bettingBox_fr table .td5 p.p5 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.bettingBoxBasketball .bettingBox_fr table .td5 p.p5 span {
+  color: #999999;
+}
+/*北京单场*/
+.bettingBoxSingle {
+  position: relative;
+  width: 100%;
+  height: 198px;
+  background: #fff;
+  padding: 30px 0 20px;
+  box-sizing: border-box;
+}
+.bettingBoxSingle .bettingBox_fl {
+  height: 100px;
+  width: 19%;
+  padding-top: 18px;
+  color: #999999;
+  font-size: 22px;
+  text-align: center;
+  line-height: 32px;
+}
+.bettingBoxSingle .bettingBox_fl p.arrow {
+  background: url('../../Img/lotteryBetting/arrowIcon1.png') center bottom no-repeat;
+  background-size: 25px 25px;
+  height: 36px;
+}
+.bettingBoxSingle .bettingBox_fl p.arrow.down {
+  background: url('../../Img/lotteryBetting/arrowIcon2.png') center bottom no-repeat;
+  background-size: 25px 25px;
+  height: 36px;
+}
+.bettingBoxSingle .bettingBox_fr {
+  position: absolute;
+  left: 145px;
+  top: 0;
+  width: 81%;
+}
+.bettingBoxSingle .bettingBox_fr .bettingBox_fr_title {
+  width: 100%;
+  height: 54px;
+  padding-top: 36px;
+}
+.bettingBoxSingle .bettingBox_fr .bettingBox_fr_title ul {
+  position: relative;
+  overflow: hidden;
+  height: 54px;
+  color: #191919;
+  font-size: 30px;
+  line-height: 54px;
+}
+.bettingBoxSingle .bettingBox_fr .bettingBox_fr_title ul li {
+  float: left;
+}
+.bettingBoxSingle .bettingBox_fr .bettingBox_fr_title ul li.li2 {
+  width: 15%;
+  text-align: center;
+}
+.bettingBoxSingle .bettingBox_fr .bettingBox_fr_title ul li.li1 {
+  width: 40%;
+  text-align: right;
+}
+.bettingBoxSingle .bettingBox_fr .bettingBox_fr_title ul li.li3 {
+  width: 40%;
+  text-align: left;
+}
+.bettingBoxSingle .bettingBox_fr table {
+  width: 92%;
+  table-layout: fixed;
+  border: 1PX solid #eee;
+  box-sizing: border-box;
+}
+.bettingBoxSingle .bettingBox_fr table td {
+  height: 70px;
+  font-size: 26px;
+  color: #525252;
+  text-align: center;
+}
+.bettingBoxSingle .bettingBox_fr table td.redRed {
+  background: #FC5638;
+  color: #fff;
+  width: 100%;
+  height: 70px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+/*上下单双*/
+.bettingBoxShangxia {
+  position: relative;
+  width: 100%;
+  height: 260px;
+  background: #fff;
+  padding: 30px 0 35px;
+  box-sizing: border-box;
+}
+.bettingBoxShangxia .bettingBox_fl {
+  height: 100px;
+  width: 19%;
+  padding-top: 56px;
+  color: #999999;
+  font-size: 22px;
+  text-align: center;
+  line-height: 32px;
+}
+.bettingBoxShangxia .bettingBox_fl p.arrow {
+  background: url('../../Img/lotteryBetting/arrowIcon1.png') center bottom no-repeat;
+  background-size: 25px 25px;
+  height: 36px;
+}
+.bettingBoxShangxia .bettingBox_fl p.arrow.down {
+  background: url('../../Img/lotteryBetting/arrowIcon2.png') center bottom no-repeat;
+  background-size: 25px 25px;
+  height: 36px;
+}
+.bettingBoxShangxia .bettingBox_fr {
+  position: absolute;
+  left: 145px;
+  top: 0;
+  width: 81%;
+}
+.bettingBoxShangxia .bettingBox_fr .bettingBox_fr_title {
+  width: 100%;
+  height: 54px;
+  padding-top: 36px;
+}
+.bettingBoxShangxia .bettingBox_fr .bettingBox_fr_title ul {
+  position: relative;
+  overflow: hidden;
+  height: 54px;
+  color: #191919;
+  font-size: 30px;
+  line-height: 54px;
+}
+.bettingBoxShangxia .bettingBox_fr .bettingBox_fr_title ul li {
+  float: left;
+}
+.bettingBoxShangxia .bettingBox_fr .bettingBox_fr_title ul li.li2 {
+  width: 15%;
+  text-align: center;
+}
+.bettingBoxShangxia .bettingBox_fr .bettingBox_fr_title ul li.li1 {
+  width: 40%;
+  text-align: right;
+}
+.bettingBoxShangxia .bettingBox_fr .bettingBox_fr_title ul li.li3 {
+  width: 40%;
+  text-align: left;
+}
+.bettingBoxShangxia .bettingBox_fr table {
+  width: 94%;
+  table-layout: fixed;
+  border: 1PX solid #eee;
+  box-sizing: border-box;
+}
+.bettingBoxShangxia .bettingBox_fr table td {
+  height: 128px;
+  text-align: center;
+  font-size: 28px;
+  color: #212121;
+}
+.bettingBoxShangxia .bettingBox_fr table td.border_lr {
+  border-left: 1PX solid #efefef;
+  border-right: 1PX solid #efefef;
+}
+.bettingBoxShangxia .bettingBox_fr table td.border_lr2 {
+  border-right: 1PX solid #efefef;
+}
+.bettingBoxShangxia .bettingBox_fr table td.redRed {
+  background: #FC5638;
+  color: #fff;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.bettingBoxShangxia .bettingBox_fr table td.redRed p.p1 {
+  color: #fff;
+}
+.bettingBoxShangxia .bettingBox_fr table td p.p1 {
+  color: #737373;
+  font-size: 24px;
+  padding-top: 10px;
+}
+table.sxds {
+  width: 100%;
+  table-layout: fixed;
+  border: 1PX solid #eee;
+  box-sizing: border-box;
+}
+table.sxds td {
+  height: 128px;
+  text-align: center;
+  font-size: 28px;
+  color: #212121;
+}
+table.sxds td.border_lr {
+  border-left: 1PX solid #efefef;
+  border-right: 1PX solid #efefef;
+}
+table.sxds td.border_lr2 {
+  border-right: 1PX solid #efefef;
+}
+table.sxds td.redRed {
+  background: #FC5638;
+  color: #fff;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+table.sxds td.redRed p.p1 {
+  color: #fff;
+}
+table.sxds td p.p1 {
+  color: #737373;
+  font-size: 24px;
+  padding-top: 10px;
+}
+/*总进球*/
+.bettingBoxZongjinqiu {
+  position: relative;
+  width: 100%;
+  height: 260px;
+  background: #fff;
+  padding: 30px 0 35px;
+  box-sizing: border-box;
+}
+.bettingBoxZongjinqiu .bettingBox_fl {
+  height: 100px;
+  width: 19%;
+  padding-top: 70px;
+  color: #999999;
+  font-size: 22px;
+  text-align: center;
+  line-height: 32px;
+}
+.bettingBoxZongjinqiu .bettingBox_fl p.arrow {
+  background: url('../../Img/lotteryBetting/arrowIcon1.png') center bottom no-repeat;
+  background-size: 25px 25px;
+  height: 36px;
+}
+.bettingBoxZongjinqiu .bettingBox_fl p.arrow.down {
+  background: url('../../Img/lotteryBetting/arrowIcon2.png') center bottom no-repeat;
+  background-size: 25px 25px;
+  height: 36px;
+}
+.bettingBoxZongjinqiu .bettingBox_fr {
+  position: absolute;
+  left: 145px;
+  top: 0;
+  width: 81%;
+}
+.bettingBoxZongjinqiu .bettingBox_fr .bettingBox_fr_title {
+  width: 100%;
+  height: 54px;
+  padding-top: 36px;
+}
+.bettingBoxZongjinqiu .bettingBox_fr .bettingBox_fr_title ul {
+  position: relative;
+  overflow: hidden;
+  height: 54px;
+  color: #191919;
+  font-size: 30px;
+  line-height: 54px;
+}
+.bettingBoxZongjinqiu .bettingBox_fr .bettingBox_fr_title ul li {
+  float: left;
+}
+.bettingBoxZongjinqiu .bettingBox_fr .bettingBox_fr_title ul li.li2 {
+  width: 15%;
+  text-align: center;
+}
+.bettingBoxZongjinqiu .bettingBox_fr .bettingBox_fr_title ul li.li1 {
+  width: 40%;
+  text-align: right;
+}
+.bettingBoxZongjinqiu .bettingBox_fr .bettingBox_fr_title ul li.li3 {
+  width: 40%;
+  text-align: left;
+}
+.bettingBoxZongjinqiu .bettingBox_fr table {
+  width: 94%;
+  table-layout: fixed;
+  border: 1PX solid #eee;
+  box-sizing: border-box;
+}
+.bettingBoxZongjinqiu .bettingBox_fr table tr:last-child td {
+  border-bottom: 0;
+}
+.bettingBoxZongjinqiu .bettingBox_fr table td {
+  height: 70px;
+  text-align: center;
+  font-size: 26px;
+  border-bottom: 1PX solid #eee;
+}
+.bettingBoxZongjinqiu .bettingBox_fr table td.border_lr {
+  border-left: 1PX solid #efefef;
+  border-right: 1PX solid #efefef;
+}
+.bettingBoxZongjinqiu .bettingBox_fr table td.border_lr2 {
+  border-right: 1PX solid #efefef;
+}
+.bettingBoxZongjinqiu .bettingBox_fr table td.redRed {
+  background: #FC5638;
+  color: #fff;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.bettingBoxZongjinqiu .bettingBox_fr table td.redRed span.span1 {
+  color: #fff;
+}
+.bettingBoxZongjinqiu .bettingBox_fr table td.redRed span.span2 {
+  color: #fff;
+}
+.bettingBoxZongjinqiu .bettingBox_fr table td span.span1 {
+  display: inline-block;
+  padding-left: 5%;
+  width: 30%;
+  color: #333;
+  text-align: left;
+}
+.bettingBoxZongjinqiu .bettingBox_fr table td span.span2 {
+  display: inline-block;
+  width: 65%;
+  color: #737373;
+  text-align: left;
+}
+table.bjdcZjq {
+  width: 100%;
+  table-layout: fixed;
+  border: 1PX solid #eee;
+  box-sizing: border-box;
+}
+table.bjdcZjq tr:last-child td {
+  border-bottom: 0;
+}
+table.bjdcZjq td {
+  height: 70px;
+  text-align: center;
+  font-size: 26px;
+  border-bottom: 1PX solid #eee;
+}
+table.bjdcZjq td.border_lr {
+  border-left: 1PX solid #efefef;
+  border-right: 1PX solid #efefef;
+}
+table.bjdcZjq td.border_lr2 {
+  border-right: 1PX solid #efefef;
+}
+table.bjdcZjq td.redRed {
+  background: #FC5638;
+  color: #fff;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+table.bjdcZjq td.redRed span.span1 {
+  color: #fff;
+}
+table.bjdcZjq td.redRed span.span2 {
+  color: #fff;
+}
+table.bjdcZjq td span.span1 {
+  display: inline-block;
+  padding-left: 5%;
+  width: 30%;
+  color: #525252;
+  text-align: left;
+}
+table.bjdcZjq td span.span2 {
+  display: inline-block;
+  width: 65%;
+  color: #737373;
+  text-align: left;
+}
+/**箭头**/
+.Newarrow {
+  position: absolute;
+  top: 44PX;
+  right: 0px;
+  width: 60px;
+  height: 82px;
+  z-index: 1000;
+  background: #fff;
+}
+.Newarrow1 {
+  position: absolute;
+  top: 0PX;
+  right: 0px;
+  width: 60px;
+  height: 82px;
+  z-index: 1000;
+  background: #fff;
+}
+.Newarrow span,
+.Newarrow1 span {
+  display: block;
+  width: 30px;
+  height: 80px;
+  margin: 0 auto;
+  background: url('../../Img/lotteryBetting/arrowIcon1.png') 0 center no-repeat;
+  background-size: 30px 30px;
+}
+.menu-mask {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  opacity: 0.4;
+  z-index: 89000;
+}
+.menuPop {
+  position: absolute;
+  z-index: 90000 !important;
+  width: 100%;
+  background: #fff;
+  padding-bottom: 30px;
+  padding-top: 10px;
+}
+.menuPop .menuFlex {
+  display: flex;
+  height: 82px;
+  box-sizing: border-box;
+  padding: 20px 0 0 25px;
+}
+.menuPop .menuFlex div {
+  width: 20%;
+  text-align: center;
+  height: 60px;
+  border: 1PX solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+  line-height: 60px;
+  font-size: 28px;
+  color: #191919;
+  margin-right: 5.5%;
+}
+.menuPop .menuFlex div:nth-child(4n) {
+  margin-right: 0px;
+}
+.menuPop .menuFlex div.active {
+  border: 1px solid #f22f12;
+  color: #ffffff;
+  background: #FB6247;
+}
+.menuPop .menuFlex_3 {
+  display: flex;
+  height: 82px;
+  box-sizing: border-box;
+  padding: 20px 0 0 25px;
+}
+.menuPop .menuFlex_3 div {
+  width: 28.5%;
+  text-align: center;
+  height: 60px;
+  border: 1PX solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+  line-height: 60px;
+  font-size: 28px;
+  color: #191919;
+  margin-right: 5.5%;
+}
+.menuPop .menuFlex_3 div:nth-child(3n) {
+  margin-right: 0px;
+}
+.menuPop .menuFlex_3 div.active {
+  border: 1px solid #f22f12;
+  color: #ffffff;
+  background: #FB6247;
+}

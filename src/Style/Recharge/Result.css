@@ -1,0 +1,21 @@
+#resultBox .rechargeBtn{width:100%;box-sizing: border-box;padding:0 30px;}
+#resultBox .rechargeBtn1{display:block;height:88px;line-height:88px;font-size: 36px;color: #FFFFFF;background: #FC5638;
+    border-radius: 10px;text-align: center;}
+
+#resultBox .resultImg{background: #ffffff;padding:50px 0 80px; text-align: center;}
+#resultBox .resultImg img{display: block;width:150px;height: 150px;margin:0 auto 30px;border-radius: 150px;}
+#resultBox .resultImg p.p1{font-size: 36px;color: #444444;letter-spacing: 1.44px;font-weight:weight;margin-bottom:10px;}
+#resultBox .resultImg p.p2{font-size: 28px;color: #999999;letter-spacing: 1.12px;
+    font-weight:weight; line-height:40px;}
+
+.resultList .am-list-body{border-top:0;}
+.resultList .am-list-body div:not(:last-child) .am-list-line:after{border-bottom: 1PX solid #eee;}
+.resultList .am-list-body:after{border-bottom: 1PX solid #eee;}
+
+#resultBox .resultList .am-list-item .am-list-line{height: 88px; min-height: 88px;}
+#resultBox .resultList .am-list-item .am-list-line .am-list-content{font-size: 32px;color: #999999;}
+#resultBox .resultList .am-list-item .am-list-line .am-list-extra{font-size: 32px;color: #999999;}
+#resultBox .resultList .moneyItem.am-list-item .am-list-line .am-list-extra{font-size: 48px;color: #444444;font-weight: bold;}
+#resultBox .resultList .rechargeType .am-list-extra{flex-basis:55%}
+
+

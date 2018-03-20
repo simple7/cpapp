@@ -1,0 +1,63 @@
+.questionBox{height:80px;}
+.questionBox .questionLink{display:block;float:right;height:80px; line-height:80px;background: url('../../Img/MyIndex/questionIcon.png') 0 center no-repeat;
+background-size: 28px 28px;color: #2395FF;font-size: 26px;padding-left:35px;padding-right:30px;}
+
+.redList{width:100%;}
+.redList.redList1 .redBox:first-child{margin-top:0;}
+.redBox{display:flex;height: 212px;background:#fff;margin-top:30px; position: relative;overflow:hidden;}
+.redBox.margin_t0{}
+.redBox1{display:flex;flex-direction: column;justify-content:center;
+    width:225px;height: 212px;margin-right:24px;
+    color: #FFFFFF; text-align: center;}
+.redBox1.redBoxBg1{background: url('../../Img/MyIndex/redBoxBg1.png') 0 0 no-repeat;background-size: 225px 212px;}
+.redBox1.redBoxBg2{background: url('../../Img/MyIndex/redBoxBg2.png') 0 0 no-repeat;background-size: 225px 212px;}
+
+.redBox1 p.p1{width:86%;font-size: 88px;letter-spacing: -2.36px;font-weight: bold;padding-right:14%;}
+.redBox1 p.p1 span{font-size:50px;}
+.redBox1 p.p2{font-size: 28px;letter-spacing: 1.56px;padding-top:4px;}
+
+.redBox2{flex:1;}
+.redBox2 p.p3{font-size: 30px;color: #191919;letter-spacing: 1.2px;margin-top:42px;margin-bottom:20px;}
+.redBox2 p.p4{color: #C7C7C7;font-size: 24px;letter-spacing: 0.96px;padding-bottom:22px;border-bottom:2px dashed #eee;}
+.redBox2 p.p5{color: #C7C7C7;font-size: 22px;padding-top:15px;}
+
+.redBox3{position:absolute;top:30px;right:-45px;font-size: 20px;color: #FFFFFF;letter-spacing: -0.49px;
+background: #FC5638;transform: rotate(45deg); text-align: center;width:180px;
+height:35px; line-height:35px;padding-left:20px;font-weight: bold;}
+
+.redBox4{position: absolute;top:0;left:0;z-index:10;width:100%; height: 212px;background: rgba(255,255,255,0.5);}
+
+.redBox5{position: absolute;top:42px;right:24px;z-index:10;width:152px; height:128px;}
+.redBox5.imgGuoqi{background:url('../../Img/MyIndex/redGuoqi.png') 0 0 no-repeat;background-size: 152px 128px;}
+.redBox5.imgYongwan{background:url('../../Img/MyIndex/redYongwan.png') 0 0 no-repeat;background-size: 152px 128px;}
+
+.redOver{color: #999999;font-size: 26px;letter-spacing: -0.16px;margin-top:48px;
+ text-align: center;margin-bottom:30px;}
+
+.emptyRedBox{width:100%;height:100px; text-align: center;padding-top:400px;
+background: url(../../Img/MyIndex/emptyImg.png) center 160px no-repeat; background-size:238px 216px;}
+.emptyRedBox p{color: #CFCFCF;font-size: 30px;}
+
+
+/*navHomeSpan*/
+.navHomeSpan{display:block;width:50px;height:50px;
+    background: url('../../Img/navHomeIcon.png') 0 0 no-repeat;
+    background-size:50px auto;
+}
+/*使用红包*/
+.useRedTitle{position:relative;height:100px;line-height:100px;text-align: center;background: #f5f5f9;}
+.useRedTitle:after{content: "";position: absolute;height: 1px;width:100%;left:0;top:49px;background: #E8E8EA;}
+.useRedTitle span{position:relative;z-index:10;color: #999999;font-size: 28px;letter-spacing: 1.12px;background: #f5f5f9;padding:0 10px;}
+.useRedTitle .questionBoxXin{position: absolute;right:0;top:10px;background: #f5f5f9;padding-left:20px;z-index: 10;}
+
+.noUseRedBtn{position: fixed;bottom:0;left:0;width:100%;height:100px;background: #fff;font-size: 36px;color: #FC5638;
+  line-height:100px;text-align: center;box-shadow: 0 0 5px #eee;
+}
+.checkedIcon{position: absolute;top:76px;right:66px;width:50px;height:50px;
+  background: url('../../Img/lotteryBetting/checkedIcon1.png') center center no-repeat;background-size: 46px 46px;
+}
+.checkedIcon.active{
+  background: url('../../Img/lotteryBetting/checkedIcon.png') center center no-repeat;background-size: 46px 46px;
+}
+
+
